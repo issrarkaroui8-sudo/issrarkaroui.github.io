@@ -1,0 +1,1838 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Issrar Karoui — Portfolio</title>
+<meta name="description" content="Issrar Karoui, UX/UI Designer & Graphic Designer basée à Tunis. Étudiante en Master 2 Design Digital à l'ESSTED.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Newsreader:ital,opsz,wght@1,6..72,300..500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Retour en haut"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#cv" data-cv>CV</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <div class="lang-switch" role="group" aria-label="Langue">
+        <button type="button" data-lang="fr" aria-pressed="true">FR</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button type="button" class="theme-btn" id="theme-btn" aria-label="Passer en mode sombre">
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.7 14.4A8.5 8.5 0 0 1 9.6 3.3a.75.75 0 0 0-.98-.9A10 10 0 1 0 21.6 15.4a.75.75 0 0 0-.9-1z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg>
+      </button>
+      <a class="btn" href="#contact">Me contacter <span class="arr">→</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap">
+      <span class="status rise"><span class="dot" aria-hidden="true"></span>Disponible pour de nouveaux projets</span>
+      <div class="hero-grid">
+        <h1 class="name rise d1"><span>Issrar</span><span class="l2">Karoui<em>.</em></span></h1>
+        <figure class="portrait rise d2">
+          <img src="photo.jpg" alt="Portrait d'Issrar Karoui">
+          <figcaption class="tag">Tunis, Tunisie</figcaption>
+        </figure>
+      </div>
+      <div class="hero-foot rise d3">
+        <div class="role">UX/UI Designer <em class="s">&amp;</em> Graphic Designer</div>
+        <p>Je conçois des expériences digitales centrées utilisateur, avec l'œil d'une graphiste formée à la publicité. De la recherche UX au prototype, chaque écran a une raison d'être.</p>
+        <div class="cta">
+          <a class="btn" href="#projets">Voir mes projets <span class="arr">↓</span></a>
+          <button type="button" class="btn ghost" data-cv>Voir mon CV</button>
+        </div>
+      </div>
+    </div>
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>UX Research</span><span>User Journey</span><span>Wireframing</span><span>Prototypage</span><span>Design System</span><span>Identité visuelle</span><span>Motion Design</span><span>Direction artistique</span>
+        <span>UX Research</span><span>User Journey</span><span>Wireframing</span><span>Prototypage</span><span>Design System</span><span>Identité visuelle</span><span>Motion Design</span><span>Direction artistique</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJETS -->
+  <section id="projets">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><i>01</i> Projets sélectionnés</div>
+        <h2>Travaux <em class="s">récents</em></h2>
+        <p class="aside">Identité visuelle, interfaces et contenus digitaux. Cliquez sur un projet pour voir l'étude de cas.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrer les projets">
+        <button type="button" class="chip-f" data-f="all" aria-pressed="true">Tous<sup></sup></button>
+        <button type="button" class="chip-f" data-f="uxui" aria-pressed="false">UI/UX design<sup></sup></button>
+        <button type="button" class="chip-f" data-f="graphique" aria-pressed="false">Design graphique<sup></sup></button>
+        <button type="button" class="chip-f" data-f="photo" aria-pressed="false">Photographie<sup></sup></button>
+        <button type="button" class="chip-f" data-f="motion" aria-pressed="false">Motion design<sup></sup></button>
+      </div>
+      <div class="projects">
+        <a class="card wide" href="#ecoresto" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-eco" aria-hidden="true">
+              <div class="eco-copy"><span>Étude de cas UX/UI</span><strong>EcoResto</strong><em>Sauvez vos invendus, boostez vos revenus.</em></div>
+              <img class="sc s1" src="eco-2.jpg" alt="">
+              <img class="sc s2" src="eco-1.jpg" alt="">
+              <img class="sc s3" src="eco-4.jpg" alt="">
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>EcoResto, application anti-gaspillage</h3><div class="cat">UX Research · UX/UI Design · Prototype mobile</div></div>
+            <div class="chips"><span class="chip">UX/UI</span><span class="chip">2025/26</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#patcare" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-eco art-pat" aria-hidden="true">
+              <div class="eco-copy"><span>Étude de cas UX/UI</span><strong>PATCare</strong><em>Ensemble, sauvons des vies.</em></div>
+              <img class="sc s1" src="pat-5.jpg" alt="">
+              <img class="sc s2" src="pat-2.jpg" alt="">
+              <img class="sc s3" src="pat-4.jpg" alt="">
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>PATCare, au service du bien-être animal</h3><div class="cat">UX Research · Architecture · UI · Test SUS</div></div>
+            <div class="chips"><span class="chip">UX/UI</span><span class="chip">2025/26</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#voltup" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-eco art-volt" aria-hidden="true">
+              <div class="eco-copy"><span>Étude de cas Lean UX</span><strong>VoltUP</strong><em>Recharger sa voiture électrique, sans l'angoisse de la panne.</em></div>
+              <img class="sc s1" src="lx-5.jpg" alt="">
+              <img class="sc s2" src="lx-2.jpg" alt="">
+              <img class="sc s3" src="lx-10.jpg" alt="">
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>VoltUP, recharge de véhicules électriques</h3><div class="cat">Lean UX · Recherche · UI mobile</div></div>
+            <div class="chips"><span class="chip">UX/UI</span><span class="chip">2025/26</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#maybank" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-bank" aria-hidden="true">
+              <div class="eco-copy"><span>UI Design · Landing page</span><strong>Maybank</strong><em>La banque qui parle votre langue.</em></div>
+              <video src="bk-mockup.mp4" poster="bk-mockup.jpg" autoplay muted loop playsinline></video>
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Maybank, landing page bancaire</h3><div class="cat">Web design · UI · Figma</div></div>
+            <div class="chips"><span class="chip">Web</span><span class="chip">2026</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#mbooking" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-eco art-cine" aria-hidden="true">
+              <div class="eco-copy"><span>UI Design · App mobile</span><strong>MBooking</strong><em>Du film à la place, en quelques gestes.</em></div>
+              <img class="sc s1" src="cn-2.jpg" alt="">
+              <img class="sc s2" src="cn-1.jpg" alt="">
+              <img class="sc s3" src="cn-4.jpg" alt="">
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>MBooking, réservation de cinéma</h3><div class="cat">UI Design · App mobile · Figma</div></div>
+            <div class="chips"><span class="chip">Mobile</span><span class="chip">Figma</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#droits" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-da" aria-hidden="true">
+              <div class="eco-copy"><span>Web design · Site interactif</span><strong>Droits.tn</strong><em>Comprendre ses droits d'auteur en Tunisie.</em></div>
+              <div class="mini-browser"><div class="mb-bar"><i></i><i></i><i></i></div><video src="dt-demo.mp4" poster="dt-poster.jpg" autoplay muted loop playsinline></video></div>
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Droits.tn, site sur les droits d'auteur</h3><div class="cat">Web design · UI · Figma</div></div>
+            <div class="chips"><span class="chip">Web</span><span class="chip">UX/UI</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#monsapo" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-da art-ms" aria-hidden="true">
+              <div class="eco-copy"><span>Web design · E-commerce</span><strong>Monsapo</strong><em>Des produits d'entretien écologiques, en ligne.</em></div>
+              <div class="mini-browser"><div class="mb-bar"><i></i><i></i><i></i></div><video src="ms-demo.mp4" poster="ms-poster.jpg" autoplay muted loop playsinline></video></div>
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Monsapo, site e-commerce</h3><div class="cat">Web design · UI · E-commerce</div></div>
+            <div class="chips"><span class="chip">Web</span><span class="chip">UX/UI</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#exersize" data-cat="uxui">
+          <div class="vis">
+            <div class="art art-eco art-gym" aria-hidden="true">
+              <div class="eco-copy"><span>UI Design · App mobile</span><strong>Exersize</strong><em>Sport, méditation et nutrition dans une seule app.</em></div>
+              <img class="sc s1" src="gy-2.jpg" alt="">
+              <img class="sc s2" src="gy-1.jpg" alt="">
+              <img class="sc s3" src="gy-3.jpg" alt="">
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Exersize, application de fitness</h3><div class="cat">UI Design · App mobile · Figma</div></div>
+            <div class="chips"><span class="chip">Mobile</span><span class="chip">Figma</span></div>
+          </div>
+        </a>
+
+        <a class="card" href="#ixia" data-cat="graphique">
+          <div class="vis">
+            <div class="art" aria-hidden="true"><img src="ixia-11.jpg" alt="" style="width:100%;height:100%;object-fit:cover"></div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Institut IXIA, Brand Book</h3><div class="cat">Identité visuelle · Charte graphique · Print &amp; digital</div></div>
+            <div class="chips"><span class="chip">Branding</span><span class="chip">2026</span></div>
+          </div>
+        </a>
+
+        <a class="card" href="#flexoprint" data-cat="graphique">
+          <div class="vis">
+            <div class="art" aria-hidden="true"><img src="fx-32.jpg" alt="" style="width:100%;height:100%;object-fit:cover"></div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Flexoprint, charte graphique</h3><div class="cat">Identité visuelle · Print &amp; digital</div></div>
+            <div class="chips"><span class="chip">Branding</span><span class="chip">2026</span></div>
+          </div>
+        </a>
+
+        <a class="card" href="#aroui" data-cat="graphique">
+          <div class="vis">
+            <div class="art art-ar" aria-hidden="true"><img src="ar-cover.jpg" alt="" style="width:100%;height:100%;object-fit:cover"></div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Au temps d'El Aroui</h3><div class="cat">Livre de contes illustré · Illustration · Identité</div></div>
+            <div class="chips"><span class="chip">Édition</span><span class="chip">2024</span></div>
+          </div>
+        </a>
+
+        <a class="card" href="#motion" data-cat="motion">
+          <div class="vis">
+            <div class="art art-reel" aria-hidden="true">
+              <video src="mo-javel.mp4" poster="mo-javel.jpg" autoplay muted loop playsinline></video>
+              <span class="reel-tag">▶ 9 animations</span>
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Motion design</h3><div class="cat">Animations de logo · Spots promotionnels</div></div>
+            <div class="chips"><span class="chip">After Effects</span><span class="chip">2024</span></div>
+          </div>
+        </a>
+
+        <a class="card" href="#social" data-cat="graphique">
+          <div class="vis">
+            <div class="art art-bento" aria-hidden="true">
+              <img src="so-ronaldo.jpg" alt="" class="b1">
+              <img src="so-cartoon-2.jpg" alt="" class="b2">
+              <img src="so-est.jpg" alt="" class="b3">
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Illustrations sport</h3><div class="cat">Avatar Media / Foot24 · Réseaux sociaux</div></div>
+            <div class="chips"><span class="chip">Illustration</span><span class="chip">2023</span></div>
+          </div>
+        </a>
+
+        <a class="card wide" href="#boheme" data-cat="photo">
+          <div class="vis">
+            <div class="art art-photo" aria-hidden="true">
+              <img src="ph-12.jpg" alt="">
+              <img src="ph-5.jpg" alt="">
+              <img src="ph-11.jpg" alt="">
+              <span class="reel-tag">12 photos</span>
+            </div>
+            <span class="open" aria-hidden="true">→</span>
+          </div>
+          <div class="meta">
+            <div><h3>Bohème, photographie culinaire</h3><div class="cat">Shooting produit · Stylisme · Direction artistique</div></div>
+            <div class="chips"><span class="chip">Photo</span></div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><i>02</i> Méthode</div>
+        <h2>Mon <em class="s">process</em> UX</h2>
+        <p class="aside">Une démarche centrée utilisateur, du premier entretien au test du prototype.</p>
+      </div>
+      <div class="process">
+        <div class="step"><span class="n">01</span><h3>Comprendre</h3><p>Écouter les utilisateurs et cadrer le problème.</p><ul><li>Entretiens</li><li>Questionnaires</li></ul></div>
+        <div class="step"><span class="n">02</span><h3>Définir</h3><p>Transformer les données en besoins clairs.</p><ul><li>Personas</li><li>User Journey</li></ul></div>
+        <div class="step"><span class="n">03</span><h3>Structurer</h3><p>Organiser les contenus et les parcours.</p><ul><li>Archi. info</li><li>User Flow</li></ul></div>
+        <div class="step"><span class="n">04</span><h3>Concevoir</h3><p>Passer du croquis à l'interface finale.</p><ul><li>Wireframes</li><li>UI</li><li>Design System</li></ul></div>
+        <div class="step"><span class="n">05</span><h3>Tester</h3><p>Valider avec de vrais utilisateurs, puis itérer.</p><ul><li>Prototype</li><li>Tests</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section id="apropos" class="about">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><i>03</i> À propos</div>
+      </div>
+      <div class="about-grid">
+        <p class="big">Du concept à l’écran, je donne vie aux idées à travers le design. À la croisée de l’UX/UI et du design graphique, j’allie créativité, sens du détail et réflexion pour créer des <em>expériences digitales intuitives</em>, des interfaces harmonieuses et des visuels qui marquent les esprits.</p>
+        <div class="side">
+          <a class="btn" href="#contact" style="align-self:flex-start;background:var(--bg);color:var(--ink);border-color:var(--bg)">Discutons-en <span class="arr">→</span></a>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>6</b><span>expériences professionnelles et challenges</span></div>
+          <div class="stat"><b>6</b><span>mois en poste chez DM TN</span></div>
+          <div class="stat"><b>2</b><span>diplômes en design, à l'ESSTED</span></div>
+          <div class="stat"><b>4</b><span>langues parlées</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARCOURS -->
+  <section id="parcours">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><i>04</i> Parcours</div>
+        <h2>Expérience <em class="s">&amp;</em> formation</h2>
+        <p class="aside">Du graphisme publicitaire à la conception d'interfaces.</p>
+      </div>
+      <div class="timeline">
+        <div class="row"><span class="when">12/2025 – aujourd'hui</span><h3>Graphic Designer<small>Freelance · Arabie saoudite</small></h3><p>Conception et réalisation de supports graphiques professionnels, production de documents visuels adaptés aux besoins de l'entreprise.</p><span class="kind chip">Freelance</span></div>
+        <div class="row"><span class="when">2026</span><h3>Graphic Designer &amp; UI Designer<small>Challenge La Rose Blanche · Hackathon Flexoprint</small></h3><p>Refonte du logo, modernisation de la charte graphique, déploiement de la nouvelle identité et conception de l'interface du site web.</p><span class="kind chip">Challenge</span></div>
+        <div class="row"><span class="when">2026</span><h3>Graphic Designer &amp; UI Designer<small>Challenge La Rose Blanche · Créathon Institut IXIA</small></h3><p>Création du logo et de l'identité visuelle, modernisation de la charte graphique, déclinaison digitale et conception de l'interface du site web.</p><span class="kind chip">Challenge</span></div>
+        <div class="row"><span class="when">02/2025 – 08/2025</span><h3>Graphic Designer<small>DM TN · Tunisie</small></h3><p>Conception et réalisation de supports graphiques professionnels, production de documents visuels adaptés aux besoins de l'entreprise.</p><span class="kind chip">Poste</span></div>
+        <div class="row"><span class="when">01/2024 – 04/2024</span><h3>Graphic Designer<small>IB Comprod</small></h3><p>Création de supports de communication digitale et print, motion design avec After Effects.</p><span class="kind chip">Stage</span></div>
+        <div class="row"><span class="when">08/2023 – 09/2023</span><h3>Graphic Designer<small>Avatar Media / Foot24 · Tunisie</small></h3><p>Création de contenus graphiques pour les réseaux sociaux, participation au processus créatif de l'équipe.</p><span class="kind chip">Stage</span></div>
+        <div class="row"><span class="when">09/2025 – 05/2027</span><h3>Master Design Digital<small>Spécialité UX/UI · ESSTED, Tunis</small></h3><p>Recherche UX, conception de parcours, prototypage et design d'interfaces.</p><span class="kind chip">Diplôme</span></div>
+        <div class="row"><span class="when">2021 – 2024</span><h3>Licence Design Image<small>Spécialité publicité graphique · ESSTED, Tunis</small></h3><p>Communication visuelle, identité, typographie et direction artistique.</p><span class="kind chip">Diplôme</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section id="competences" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><i>05</i> Compétences</div>
+        <h2>Boîte à <em class="s">outils</em></h2>
+      </div>
+      <div class="skills">
+        <div class="box"><h3>UX Design <span>Recherche &amp; structure</span></h3>
+          <ul><li>UX Research</li><li>User Interviews</li><li>Questionnaires</li><li>Personas</li><li>User Journey</li><li>User Flow</li><li>Architecture de l'information</li><li>Wireframing</li><li>Prototypage</li><li>Tests utilisateurs</li></ul></div>
+        <div class="box"><h3>UI Design <span>Interfaces</span></h3>
+          <ul><li>Interface Design</li><li>Design System</li><li>Responsive Design</li><li>Mobile Design</li><li>Web Design</li><li>Hiérarchie visuelle</li><li>Typographie</li><li>Couleur &amp; composition</li></ul></div>
+        <div class="box"><h3>Design <span>Graphisme</span></h3>
+          <ul><li>Direction artistique</li><li>Identité visuelle</li><li>Communication visuelle</li><li>Motion Design</li><li>Contenu digital</li></ul></div>
+        <div class="box tools"><h3>Logiciels <span>Au quotidien</span></h3>
+          <div class="tool-list">
+            <div class="tool"><i style="background:#1E1E1E" aria-hidden="true"><svg viewBox="0 0 38 57" width="13" height="20"><path fill="#00B6FF" d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z"/><path fill="#24CB71" d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z"/><path fill="#FF7237" d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z"/><path fill="#FF3737" d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z"/><path fill="#874FFF" d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z"/></svg></i>Figma</div>
+            <div class="tool"><i style="background:#001E36;color:#31A8FF">Ps</i>Photoshop</div>
+            <div class="tool"><i style="background:#330000;color:#FF9A00">Ai</i>Illustrator</div>
+            <div class="tool"><i style="background:#00005B;color:#9999FF">Ae</i>After Effects</div>
+            <div class="tool"><i style="background:#00005B;color:#9999FF">Pr</i>Premiere Pro</div>
+            <div class="tool"><i style="background:#49021F;color:#FF3366">Id</i>InDesign</div>
+          </div>
+        </div>
+        <div class="box"><h3>Langues</h3>
+          <div class="langs">
+            <div class="lang"><div>Arabe <span>Maternelle</span></div><div class="bar"><b style="width:100%"></b></div></div>
+            <div class="lang"><div>Français <span>Courant</span></div><div class="bar"><b style="width:85%"></b></div></div>
+            <div class="lang"><div>Anglais <span>Intermédiaire</span></div><div class="bar"><b style="width:55%"></b></div></div>
+            <div class="lang"><div>Italien <span>Notions</span></div><div class="bar"><b style="width:22%"></b></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="sec-head" style="margin-bottom:28px">
+        <div class="eyebrow"><i>06</i> Contact</div>
+      </div>
+      <h2 class="contact-big">Créons <em>ensemble</em>.</h2>
+      <div class="contact-grid">
+        <div class="coords">
+          <div class="coord"><span>E-mail</span><div class="cv-val"><a href="mailto:issrarkaroui8@gmail.com">issrarkaroui8@gmail.com</a><button type="button" class="copy" data-copy="issrarkaroui8@gmail.com" aria-label="Copier"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="2"/></svg><span>Copier</span></button></div></div>
+          <div class="coord"><span>Téléphone</span><div class="cv-val"><a href="tel:+21655876430">+216 55 876 430</a><button type="button" class="copy" data-copy="+216 55 876 430" aria-label="Copier"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="2"/></svg><span>Copier</span></button></div></div>
+          <div class="coord"><span>Localisation</span><div class="cv-val"><strong>Tunis, Tunisie</strong></div></div>
+          <div class="coord"><span>Réseaux</span>
+            <div class="socials">
+              <a href="https://www.behance.net/karouiissrar" target="_blank" rel="noopener">Behance ↗</a>
+              <a href="https://www.linkedin.com/in/karoui-issrar-3ba8322a0/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="https://www.facebook.com/karoui.issrar" target="_blank" rel="noopener">Facebook ↗</a>
+            </div>
+          </div>
+        </div>
+        <form id="form" novalidate>
+          <div class="field"><label for="f-name">Votre nom</label><input id="f-name" name="name" autocomplete="name" placeholder="Nom &amp; prénom" required></div>
+          <div class="field"><label for="f-mail">Votre e-mail</label><input id="f-mail" name="email" type="email" autocomplete="email" placeholder="vous@exemple.com" required></div>
+          <div class="field full"><span class="flabel" id="f-type-l">Type de projet</span>
+            <div class="ptypes" role="group" aria-labelledby="f-type-l">
+              <button type="button" class="ptype" aria-pressed="false">UI/UX design</button>
+              <button type="button" class="ptype" aria-pressed="false">Design graphique</button>
+              <button type="button" class="ptype" aria-pressed="false">Photographie</button>
+              <button type="button" class="ptype" aria-pressed="false">Motion design</button>
+            </div>
+          </div>
+          <div class="field full"><label for="f-msg">Votre message</label><textarea id="f-msg" name="message" placeholder="Parlez-moi de votre projet, de vos délais, de vos envies…" required></textarea></div>
+          <div class="field full"><button class="btn send" type="submit">Envoyer mon message <span class="arr">→</span></button></div>
+          <p class="form-note" id="form-note" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Issrar Karoui · UX/UI &amp; Graphic Designer</span>
+    <span class="foot-links"><a href="https://www.behance.net/karouiissrar" target="_blank" rel="noopener">Behance</a><a href="https://www.linkedin.com/in/karoui-issrar-3ba8322a0/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.facebook.com/karoui.issrar" target="_blank" rel="noopener">Facebook</a></span>
+    <a href="#top">Retour en haut ↑</a>
+  </div>
+</footer>
+
+<!-- ===================== ÉTUDE DE CAS : ECORESTO ===================== -->
+<article class="cs" id="cs-ecoresto" hidden aria-labelledby="cs-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">Étude de cas · UX Research &amp; UX/UI Design</span>
+      <h1 class="cs-title" id="cs-title">Eco<em>Resto</em></h1>
+      <p class="cs-lead">Une application qui aide les cafés et restaurants tunisiens à valoriser leurs invendus et à les redistribuer aux associations.</p>
+      <dl class="cs-facts">
+        <div><dt>Contexte</dt><dd>Atelier de créativité, initiation au design UX</dd></div>
+        <div><dt>Rôle</dt><dd>UX/UI Designer, projet individuel</dd></div>
+        <div><dt>Année</dt><dd>2025/2026 · ESSTED</dd></div>
+        <div><dt>Encadrement</dt><dd>M. Oueslati Nadhem</dd></div>
+      </dl>
+    </div>
+    <div class="cs-cover" aria-hidden="true">
+      <img src="eco-1.jpg" alt=""><img src="eco-2.jpg" alt=""><img src="eco-4.jpg" alt=""><img src="eco-5.jpg" alt=""><img src="eco-7.jpg" alt="">
+    </div>
+  </header>
+
+  <!-- 01 Problème -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Le problème</span><h2>Des invendus qui finissent <em>à la poubelle</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Chaque soir, cafés et restaurants se retrouvent avec des plats et pâtisseries invendus. Faute d'outil et d'organisation, une grande partie est jetée alors que des associations à quelques kilomètres cherchent de quoi nourrir des centaines de personnes. Le projet répond à l'<strong>ODD 12</strong> (consommation et production responsables), en lien avec l'<strong>ODD 2</strong> (faim « zéro ») et l'<strong>ODD 17</strong> (partenariats).</p>
+        <div class="kpis">
+          <div class="kpi"><b>68%</b><span>du gaspillage alimentaire vient des restaurants et des foyers (sdgindex.org)</span></div>
+          <div class="kpi"><b>16%</b><span>de gaspillage alimentaire dans les restaurants en Tunisie (TAP, INC)</span></div>
+          <div class="kpi"><b>12%</b><span>de gaspillage alimentaire dans les hôtels (TAP, INC)</span></div>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 02 Recherche -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / La recherche</span><h2>Comprendre le terrain <em>avant</em> de dessiner</h2></div>
+      <div class="cs-body"><div class="col">
+        <div class="methods">
+          <div class="method"><small>Secondaire</small><h3>Benchmark</h3><p>Too Good To Go et Flashfood : efficaces, mais pensées pour la vente, peu solidaires et difficiles à transposer au contexte tunisien.</p></div>
+          <div class="method"><small>Primaire</small><h3>Observation</h3><p>Lac 1, Khaznadar et La Mornaguia, octobre 2025, à midi et à 21h. Observation passive et participante.</p></div>
+          <div class="method"><small>Primaire</small><h3>3 entretiens</h3><p>Un gérant de café-restaurant et deux membres d'associations (Jmaity, Association Universelle).</p></div>
+          <div class="method"><small>Primaire</small><h3>Sondage</h3><p>20 répondants via Google Forms, diffusé dans 3 groupes Facebook pendant une semaine.</p></div>
+        </div>
+        <div class="photos">
+          <figure><img src="eco-field-2.jpg" alt="Vitrine de plats préparés invendus en fin de service"></figure>
+          <figure><img src="eco-field-1.jpg" alt="Pâtisseries en vitrine dans un café-restaurant"></figure>
+          <figure><img src="eco-field-3.jpg" alt="Rôtisserie observée à 21h"></figure>
+        </div>
+        <p class="cap">Photos prises sur le terrain, à 13h et à 21h.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 03 Insights -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Ce que j'ai appris</span><h2>Les <em>insights</em> clés</h2></div>
+      <div class="cs-body"><div class="col">
+        <p class="cs-quote">Il est impossible d'écouler l'intégralité du stock dans un commerce alimentaire.</p>
+        <p class="cs-src">Kamel Yahmadi, gérant de café-restaurant à Tunis</p>
+        <div class="kpis">
+          <div class="kpi"><b>83,3%</b><span>signalent un manque d'outils efficaces pour réduire les invendus</span></div>
+          <div class="kpi"><b>50%</b><span>citent la gestion financière des invendus comme difficulté majeure</span></div>
+          <div class="kpi"><b>50%</b><span>ont du mal à communiquer avec les partenaires solidaires</span></div>
+        </div>
+        <p style="margin-top:32px">Sur le terrain, les restes ne sont pas redistribués de façon systématique, aucune solution ne permet de le faire rapidement, et personne ne prévient les associations locales des excédents. Du côté associatif, la demande est immense : une seule association distribue environ 500 repas par jour.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 04 Définition -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">04 / Définition</span><h2>Kamel, <em>45 ans</em>, gérant de café-restaurant</h2></div>
+      <div class="cs-body"><div class="col">
+        <p><strong>Son besoin :</strong> trouver des solutions efficaces pour écouler ses invendus sans nuire à la réputation de son établissement. <strong>Sa frustration :</strong> le risque lié à la conservation et à la revente des produits d'un jour à l'autre.</p>
+        <div class="duo">
+          <div><div class="shot"><img src="eco-persona.jpg" alt="Persona de Kamel Yahmadi : bio, buts et frustrations"></div><p class="cap">Persona</p></div>
+          <div><div class="shot"><img src="eco-empathy.jpg" alt="Carte d'empathie du gérant"></div><p class="cap">Carte d'empathie</p></div>
+        </div>
+        <div class="shot full"><img src="eco-journey.jpg" alt="Parcours utilisateur actuel en 5 étapes, avec la solution proposée pour chaque étape"></div>
+        <p class="cap">Parcours utilisateur : 5 étapes de la journée du gérant (en haut) et la réponse d'EcoResto à chacune (en bas).</p>
+        <p class="cs-quote" style="margin-top:48px;font-size:clamp(22px,2.6vw,34px);max-width:36ch">La gestion du gaspillage est freinée par le manque de flexibilité, l'absence d'outils structurants et le déficit de solutions pour valoriser les invendus.</p>
+        <p class="cs-src">Problème réel identifié</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 05 Solution -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">05 / La solution</span><h2>D'un processus manuel à un système <em>intelligent</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>EcoResto digitalise la gestion et la redistribution des surplus alimentaires. Chaque fonctionnalité répond à une étape douloureuse du parcours actuel.</p>
+      </div></div>
+      <div class="feats">
+        <div class="feat"><h3>Alerte stock critique</h3><p>Une notification dès 14h pour ne plus oublier l'inventaire.</p></div>
+        <div class="feat"><h3>« Dernière chance »</h3><p>Des promotions affichées automatiquement pour vendre sur place.</p></div>
+        <div class="feat"><h3>Réseau inter-boutiques</h3><p>L'app détecte les besoins des autres points de vente et propose les transferts.</p></div>
+        <div class="feat"><h3>Suivi en temps réel</h3><p>Le camion est suivi par GPS : les colis sont prêts à son arrivée.</p></div>
+        <div class="feat"><h3>Don facilité</h3><p>Les derniers invendus sont proposés aux associations en un geste.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 Écrans -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">06 / UI Design</span><h2>Le parcours <em>idéal</em>, en 7 écrans</h2></div>
+      <div class="flow" tabindex="0" aria-label="Écrans de l'application, faire défiler horizontalement">
+        <figure><img src="eco-1.jpg" alt="Écran d'accueil EcoResto"><figcaption><b>01 Accueil</b>Créer un compte ou se connecter.</figcaption></figure>
+        <figure><img src="eco-2.jpg" alt="Liste du stock d'invendus classés par urgence"><figcaption><b>02 Stock invendus</b>Classés par urgence selon la DLC.</figcaption></figure>
+        <figure><img src="eco-3.jpg" alt="Formulaire d'ajout d'un invendu"><figcaption><b>03 Ajouter un invendu</b>Photo, type, quantité et date limite.</figcaption></figure>
+        <figure><img src="eco-4.jpg" alt="Fiche détail d'un produit invendu"><figcaption><b>04 Détails</b>Valider ou annuler le transfert.</figcaption></figure>
+        <figure><img src="eco-5.jpg" alt="Choix des associations à prévenir"><figcaption><b>05 Rappels associations</b>Choisir les preneurs à notifier.</figcaption></figure>
+        <figure><img src="eco-6.jpg" alt="Suivi en temps réel du camion de collecte"><figcaption><b>06 Suivi de collecte</b>Arrivée du camion en temps réel.</figcaption></figure>
+        <figure><img src="eco-7.jpg" alt="Confirmation de commande avec impact : 15 kg de CO2 et 12 repas sauvés"><figcaption><b>07 Clôture</b>L'impact de la journée : kg de CO₂ et repas sauvés.</figcaption></figure>
+      </div>
+      <p class="cap">Faites défiler pour voir tous les écrans →</p>
+    </div>
+  </section>
+
+  <!-- 07 Prototype -->
+  <section class="cs-sec">
+    <div class="wrap demo">
+      <div class="device"><video src="eco-prototype.mp4" poster="eco-poster.jpg" controls muted playsinline preload="metadata" aria-label="Démonstration du prototype EcoResto"></video></div>
+      <div>
+        <div class="cs-head" style="display:block;margin-bottom:24px"><span class="num" style="display:block;margin-bottom:16px">07 / Prototype</span><h2>Démonstration <em>dynamique</em></h2></div>
+        <p>Le prototype interactif reprend le parcours idéal : de l'ajout d'un invendu à la clôture de la journée, en passant par l'alerte aux associations et le suivi de la collecte.</p>
+        <div class="cs-next">
+          <a class="btn" href="#patcare">Projet suivant : PATCare <span class="arr">→</span></a>
+          <a class="btn ghost" href="#projets">← Tous les projets</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PAGE : AU TEMPS D'EL AROUI ===================== -->
+<article class="cs ar" id="cs-aroui" hidden aria-labelledby="ar-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">Conception éditoriale · Illustration · Identité</span>
+      <h1 class="cs-title" id="ar-title">Au temps <em>d'El Aroui</em></h1>
+      <p class="cs-lead">Un livre de contes illustré qui fait revivre les histoires du conteur tunisien Abdel Aziz El Aroui, pour les enfants à partir de 7 ans.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Livre illustré, 23 pages, format carré</dd></div>
+        <div><dt>Cible</dt><dd>Enfants dès 7 ans</dd></div>
+        <div><dt>Contexte</dt><dd>Atelier de méthodologie du projet, ESSTED</dd></div>
+        <div><dt>Année</dt><dd>2024</dd></div>
+      </dl>
+      <div class="plate plate-wide" style="margin-bottom:clamp(48px,6vw,80px)"><img src="ar-cover.jpg" alt="Couverture et quatrième de couverture du livre « Au temps d'El Aroui » sur fond bleu pétrole"></div>
+    </div>
+  </header>
+
+  <!-- 01 Le projet -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Le projet</span><h2>Garder <em>vivante</em> une mémoire</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Beaucoup d'enfants et de jeunes adultes ne connaissent ni le patrimoine tunisien, ni ses auteurs, faute de sources accessibles et fiables. Un questionnaire a confirmé l'enjeu : l'auteur est connu et aimé, mais ses moralités restent à découvrir, et le livre imprimé reste le support préféré.</p>
+        <div class="pillars"><span>Préserver le patrimoine tunisien</span><span>Conserver les histoires d'Abdel Aziz El Aroui</span><span>Transmettre leur moralité</span></div>
+      </div></div>
+      <div class="ar-stats">
+        <div><b>+80 %</b><span>connaissent Abdel Aziz El Aroui</span></div>
+        <div><b>+90 %</b><span>aiment ses histoires</span></div>
+        <div><b>+50 %</b><span>ignorent qu'elles portent des moralités, mais veulent les découvrir</span></div>
+        <div><b>Papier</b><span>le livre imprimé est préféré au livre numérique</span></div>
+      </div>
+      <div class="ar-q"><small>Problématique</small>Comment conserver ces histoires à travers un livre de poésie illustré ?</div>
+    </div>
+  </section>
+
+  <!-- 02 Direction artistique -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Direction artistique</span><h2>Un univers <em>tendre</em> et tunisien</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Un style cartoon simple et chaleureux, pensé pour rapprocher le lecteur d'histoires qui se sont longtemps transmises de bouche à oreille. Palette vive, personnages expressifs, fez rouge comme signature, et une typographie sans empattements, ronde et lisible pour les enfants.</p>
+      </div></div>
+      <div class="plate plate-wide"><img src="ar-mood.jpg" alt="Planche d'inspiration : palette de couleurs, personnages, portrait d'Abdel Aziz El Aroui et fez" loading="lazy"></div>
+      <div class="ar-duo">
+        <div class="plate ar-logo"><img src="ar-logo.jpg" alt="Logo final du livre : « في زمان العروي » avec un fez rouge" loading="lazy"></div>
+        <div class="plate"><img src="ar-typo.jpg" alt="Typographie Marhey sur fond rouge" loading="lazy"></div>
+      </div>
+      <p class="cap">Logo du livre, avec son fez rouge incliné, et typographie Marhey.</p>
+    </div>
+  </section>
+
+  <!-- 03 Illustrations -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Les illustrations</span><h2>Des personnages <em>qui racontent</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Chaque double page met en scène des enfants et des figures du quotidien d'autrefois dans des décors inspirés de l'architecture et des motifs tunisiens. Les illustrations sont plus grandes et plus colorées que dans un livre classique pour accompagner l'enfant tout au long de la lecture.</p>
+        <div class="pillars"><span>Format carré, 23 pages</span><span>Papier création 90 à 135 g/m²</span><span>Couverture rigide</span><span>Éditeur visé : Arabesques</span></div>
+      </div></div>
+      <div class="plates">
+        <div class="plate"><img src="ar-spread1.jpg" alt="Double page : deux enfants devant une façade aux arcades et zelliges" loading="lazy"></div>
+        <div class="plate"><img src="ar-spread2.jpg" alt="Double page : un groupe d'enfants coiffés de fez devant une porte voûtée" loading="lazy"></div>
+      </div>
+      <div class="plates">
+        <div class="plate"><img src="ar-badges.jpg" alt="Badges illustrés : El Aroui et quatre personnages d'enfants" loading="lazy"></div>
+        <div class="plate"><img src="ar-carnet.jpg" alt="Carnet à spirale décliné avec les personnages du livre" loading="lazy"></div>
+      </div>
+      <p class="cap">Doubles pages, badges et carnet : les personnages vivent au-delà du livre.</p>
+    </div>
+  </section>
+
+  <!-- 04 Communication -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">04 / Lancement</span><h2>Du livre <em>à la rue</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Lancement prévu à la Foire internationale du livre de Tunis, du 12 au 21 avril 2024. Une affichette une semaine avant la foire, puis des publications sur Facebook et Instagram après le lancement, avec une page dédiée et un pack d'autocollants Messenger aux couleurs des personnages.</p>
+      </div></div>
+      <div class="ar-comm">
+        <div class="plate"><img src="ar-poster.jpg" alt="Affiche : « Lis nos histoires, au temps d'El Aroui » avec le livre qui flotte devant une porte voûtée" loading="lazy"></div>
+        <div class="plate"><img src="ar-abribus.jpg" alt="Affiche installée dans un abribus" loading="lazy"></div>
+        <div class="plate"><img src="ar-facebook.jpg" alt="Page Facebook du livre avec publications illustrées" loading="lazy"></div>
+      </div>
+      <div class="plates" style="grid-template-columns:1fr">
+        <div class="plate" style="max-width:520px;margin:0 auto"><img src="ar-stickers.jpg" alt="Pack d'autocollants Messenger avec les personnages du livre, vu sur un téléphone" loading="lazy"></div>
+      </div>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#motion">Projet suivant : Motion design <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PAGE : MOTION DESIGN ===================== -->
+<article class="cs mo" id="cs-motion" hidden aria-labelledby="mo-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero" style="padding-bottom:clamp(48px,6vw,80px)">
+    <div class="wrap">
+      <span class="cs-kicker">Motion design · Adobe After Effects</span>
+      <h1 class="cs-title" id="mo-title">Motion <em>design</em></h1>
+      <p class="cs-lead">Des logos qui prennent vie en relief et en couleur, et des spots promotionnels rythmés pour les réseaux sociaux.</p>
+      <dl class="cs-facts">
+        <div><dt>Outil</dt><dd>Adobe After Effects</dd></div>
+        <div><dt>Formats</dt><dd>Animations de logo, spots 16:9</dd></div>
+        <div><dt>Réalisations</dt><dd>9 animations</dd></div>
+        <div><dt>Année</dt><dd>2024</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / À la une</span><h2>Des logos qui <em>se construisent</em> sous vos yeux</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Quatre animations signature : le logo se désagrège en fragments, se dessine au trait, puis se remplit de couleur et de relief avant de se poser. Un même langage de mouvement pour l'Institut IXIA (icône et logotype) et pour la capitale du tourisme arabe 2027.</p>
+      </div></div>
+      <div class="mofeat">
+        <div class="fig tall">
+          <div class="fr"><video preload="metadata" src="mo-ixia-icone.mp4" poster="mo-ixia-icone.jpg" muted loop playsinline controls aria-label="Animation de l'icône de l'Institut IXIA"></video></div>
+          <h3>Icône Institut IXIA</h3>
+          <div class="tags"><span class="hl">Animation d'icône</span><span>9:16</span><span>5 s</span></div>
+          <p>Des éclats se rassemblent, la voile se dessine au contour puis prend sa teinte violette et son volume. Format vertical pensé pour les stories et les écrans mobiles.</p>
+        </div>
+        <div class="fig">
+          <div class="fr"><video preload="metadata" src="mo-ixia-logo.mp4" poster="mo-ixia-logo.jpg" muted loop playsinline controls aria-label="Animation du logo Institut IXIA"></video></div>
+          <h3>Logo Institut IXIA</h3>
+          <div class="tags"><span class="hl">Logo animation</span><span>16:9</span><span>7 s</span></div>
+          <p>Le symbole et le logotype « Professions et compétences » apparaissent par fragments, avec une ombre portée qui accompagne chaque lettre.</p>
+        </div>
+        <div class="fig">
+          <div class="fr"><video preload="metadata" src="mo-tunis-arab.mp4" poster="mo-tunis-arab.jpg" muted loop playsinline controls aria-label="Animation du logo Tunis Arab Tourism Capital 2027"></video></div>
+          <h3>Tunis Arab Tourism Capital 2027</h3>
+          <div class="tags"><span class="hl">Logo animation</span><span>16:9</span><span>7 s</span></div>
+          <p>Le « T » aux motifs de zellige se trace en contour avant de révéler ses couleurs : bleu, or et rouge profond.</p>
+        </div>
+        <div class="fig wide">
+          <div class="fr dark"><video src="mo-eden-garden.mp4" poster="mo-eden-garden.jpg" muted loop playsinline controls preload="metadata" aria-label="Animation de sortie Résidence Eden Garden Djerba"></video></div>
+          <h3>Résidence Eden Garden · Djerba</h3>
+          <div class="tags"><span class="hl">Outro de marque</span><span>16:9</span><span>7 s</span><span>Avec son</span></div>
+          <p>Un faisceau de lumière dorée balaie la scène, révèle le logo calligraphique puis l'adresse web : une signature de fin de vidéo au ton luxueux. Lancez la lecture et activez le son.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Logo animation</span><h2>Donner du <em>mouvement</em> à une marque</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Deux signatures animées de quelques secondes, chacune pensée selon le caractère de la marque : une construction en profondeur pour un établissement institutionnel, un tracé calligraphique pour une marque plus délicate.</p>
+      </div></div>
+      <div class="clips">
+        <div class="clip">
+          <div class="frame"><video preload="metadata" src="mo-hannibal.mp4" poster="mo-hannibal.jpg" muted loop playsinline controls aria-label="Animation du logo Établissement Hannibal"></video></div>
+          <h3>Établissement Hannibal</h3>
+          <div class="tags"><span>Logo animation</span><span>4 s</span></div>
+          <p>Le logo émerge de traînées de lumière bleues puis se fixe net : une apparition solide pour une maison fondée en 1992.</p>
+        </div>
+        <div class="clip">
+          <div class="frame"><video preload="metadata" src="mo-boheme.mp4" poster="mo-boheme.jpg" muted loop playsinline controls aria-label="Animation du logo Bohème"></video></div>
+          <h3>Bohème</h3>
+          <div class="tags"><span>Logo animation</span><span>4 s</span></div>
+          <p>Le monogramme se dessine comme à la plume, puis la signature « L'instant des milles saveurs » s'écrit lettre après lettre.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Spots promotionnels</span><h2>Une série <em>« week-end »</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Trois spots d'environ 15 secondes pour une campagne de promotions du week-end. Même mécanique pour toute la série : le produit apparaît, le prix tombe, l'ancien prix est barré, puis la signature de l'enseigne conclut. Un système cohérent qui se décline vite pour chaque offre.</p>
+      </div></div>
+      <div class="clips three">
+        <div class="clip">
+          <div class="frame"><video src="mo-javel.mp4" poster="mo-javel.jpg" muted loop playsinline controls preload="metadata" aria-label="Spot promotionnel eau de javel"></video></div>
+          <h3>Eau de javel</h3>
+          <div class="tags"><span>Spot promo</span><span>16 s</span></div>
+        </div>
+        <div class="clip">
+          <div class="frame"><video src="mo-confiture.mp4" poster="mo-confiture.jpg" muted loop playsinline controls preload="metadata" aria-label="Spot promotionnel confiture"></video></div>
+          <h3>Confiture</h3>
+          <div class="tags"><span>Spot promo</span><span>15 s</span></div>
+        </div>
+        <div class="clip">
+          <div class="frame"><video src="mo-patisserie.mp4" poster="mo-patisserie.jpg" muted loop playsinline controls preload="metadata" aria-label="Spot promotionnel plat à pâtisserie"></video></div>
+          <h3>Plat à pâtisserie</h3>
+          <div class="tags"><span>Spot promo</span><span>16 s</span></div>
+        </div>
+      </div>
+      <p class="sound-note">Les spots sont sonorisés : lancez la lecture et activez le son.</p>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#social">Projet suivant : Illustrations sport <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PAGE : ILLUSTRATIONS SPORT ===================== -->
+<article class="cs so" id="cs-social" hidden aria-labelledby="so-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero" style="padding-bottom:clamp(48px,6vw,80px)">
+    <div class="wrap">
+      <span class="cs-kicker">Illustration vectorielle · Réseaux sociaux</span>
+      <h1 class="cs-title" id="so-title">Illustrations <em>sport</em></h1>
+      <p class="cs-lead">Des illustrations de joueurs et d'identités de clubs créées pour les publications de Foot24 sur les réseaux sociaux.</p>
+      <dl class="cs-facts">
+        <div><dt>Contexte</dt><dd>Stage chez Avatar Media / Foot24</dd></div>
+        <div><dt>Rôle</dt><dd>Graphic Designer stagiaire</dd></div>
+        <div><dt>Période</dt><dd>Août – septembre 2023</dd></div>
+        <div><dt>Style</dt><dd>Flat design, cartoon</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Portraits flat</span><h2>Le geste, <em>sans le détail</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Des aplats de couleur, peu de lignes et une silhouette lisible au premier coup d'œil : le style flat garde l'essentiel d'une posture et d'un maillot, pour un visuel qui se reconnaît vite dans un fil d'actualité.</p>
+      </div></div>
+      <div class="gallery">
+        <figure class="gal w8"><div class="ph"><button type="button" data-lb="so-ronaldo.jpg" data-cap="Cristiano Ronaldo, Al Nassr"><img src="so-ronaldo.jpg" alt="Illustration flat de Cristiano Ronaldo de dos, maillot jaune et bleu numéro 7"></button></div><figcaption><b>Cristiano Ronaldo</b><span>Al Nassr</span></figcaption></figure>
+        <figure class="gal w4"><div class="ph"><button type="button" data-lb="so-haaland.jpg" data-cap="Erling Haaland, Manchester City"><img src="so-haaland.jpg" alt="Illustration flat d'Erling Haaland en course"></button></div><figcaption><b>Erling Haaland</b><span>Manchester City</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / De la photo au personnage</span><h2>Des joueurs en <em>version cartoon</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>À partir d'une photo de match, je simplifie le joueur en personnage : proportions exagérées, traits du visage marqués et tenue du club fidèlement reproduite, sponsors compris. La photo d'origine reste à côté pour montrer le travail d'interprétation.</p>
+      </div></div>
+      <div class="ba">
+        <figure class="gal" style="grid-column:auto"><div class="ph"><button type="button" data-lb="so-cartoon-2.jpg" data-cap="De la photo au personnage cartoon"><img src="so-cartoon-2.jpg" alt="Joueur en maillot blanc et rouge : illustration cartoon à gauche, photo de match à droite"></button></div><figcaption><b>Illustration et photo de référence</b><span>Maillot blanc et rouge</span></figcaption></figure>
+        <figure class="gal" style="grid-column:auto"><div class="ph"><button type="button" data-lb="so-cartoon-1.jpg" data-cap="De la photo au personnage cartoon"><img src="so-cartoon-1.jpg" alt="Joueur en maillot bleu : photo de match en haut, illustration cartoon en bas"></button></div><figcaption><b>Photo de référence et illustration</b><span>Maillot bleu</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Identité de club</span><h2>Redessiner <em>un écusson</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Le logo de l'Espérance Sportive de Tunis entièrement redessiné en vectoriel : typographie arabe et latine, mascotte, rayures et étoiles, pour disposer d'une version nette et réutilisable sur tous les visuels.</p>
+      </div></div>
+      <div class="gallery">
+        <figure class="gal w12" style="max-width:640px;width:100%;justify-self:center"><div class="ph"><button type="button" data-lb="so-est.jpg" data-cap="Espérance Sportive de Tunis, logo redessiné en vectoriel"><img src="so-est.jpg" alt="Logo de l'Espérance Sportive de Tunis redessiné en vectoriel"></button></div><figcaption><b>Espérance Sportive de Tunis</b><span>Vectorisation</span></figcaption></figure>
+      </div>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#boheme">Projet suivant : Bohème <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<dialog class="cv-dialog" id="cv-dlg" aria-labelledby="cv-title">
+  <div class="cv-head">
+    <h3 id="cv-title">Mon CV</h3>
+    <div class="cv-actions">
+      <a class="btn" id="cv-pdf-fr" href="cv-fr.pdf" target="_blank" rel="noopener">Ouvrir le PDF français <span class="arr">↗</span></a>
+      <a class="btn" id="cv-pdf-en" href="cv-en.pdf" target="_blank" rel="noopener" hidden>Open the English PDF <span class="arr">↗</span></a>
+      <button type="button" class="btn ghost" id="cv-close">Fermer ✕</button>
+    </div>
+  </div>
+  <div class="cv-tabs" role="tablist" aria-label="Version du CV">
+    <button type="button" class="cv-tab" role="tab" id="cv-tab-fr" data-v="fr" aria-selected="true">🇫🇷 Français <small>CV</small></button>
+    <button type="button" class="cv-tab" role="tab" id="cv-tab-en" data-v="en" aria-selected="false">🇬🇧 English <small>Resume</small></button>
+  </div>
+  <div class="cv-sheet">
+    <img id="cv-img-fr" src="cv-fr.jpg" alt="CV d'Issrar Karoui en français : profil, compétences, expériences, formation et langues">
+    <img id="cv-img-en" src="cv-en.jpg" alt="Issrar Karoui's resume in English: profile, skills, experience, education and languages" hidden>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<dialog class="lightbox" id="lb" aria-label="Illustration agrandie">
+  <button class="btn ghost lb-close" type="button" id="lb-close" style="background:rgba(0,0,0,.5);color:#fff;border-color:transparent">Fermer ✕</button>
+  <img id="lb-img" src="" alt="">
+  <p id="lb-cap"></p>
+</dialog>
+
+<!-- ===================== ÉTUDE DE CAS : PATCARE ===================== -->
+<article class="cs pat" id="cs-patcare" hidden aria-labelledby="pat-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">Étude de cas · UX Research &amp; UX/UI Design</span>
+      <h1 class="cs-title" id="pat-title">PAT<em>Care</em></h1>
+      <p class="cs-lead">Une application qui transforme le signalement d'un animal en détresse en une intervention rapide et coordonnée avec l'association PAT.</p>
+      <dl class="cs-facts">
+        <div><dt>Contexte</dt><dd>Méthodologies et pratiques UX, MPDD1</dd></div>
+        <div><dt>Rôle</dt><dd>UX/UI Designer, projet individuel</dd></div>
+        <div><dt>Partenaire</dt><dd>PAT, Protection des Animaux de Tunisie</dd></div>
+        <div><dt>Année</dt><dd>2025/2026 · ESSTED</dd></div>
+      </dl>
+    </div>
+    <div class="cs-cover" aria-hidden="true">
+      <img src="pat-1.jpg" alt=""><img src="pat-2.jpg" alt=""><img src="pat-3.jpg" alt=""><img src="pat-5.jpg" alt=""><img src="pat-7.jpg" alt="">
+    </div>
+  </header>
+
+  <!-- 01 Contexte -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Le contexte</span><h2>Des animaux errants, une association <em>débordée</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>PAT est une association tunisienne qui sauve les animaux abandonnés : soins vétérinaires, stérilisation, vaccination, adoption responsable et sensibilisation. Le projet s'inscrit dans le thème <strong>« Communauté durable pour un futur soutenable »</strong> : un problème de société visible, une association engagée et un impact social et environnemental réel.</p>
+        <p class="cs-quote" style="margin-top:40px">Nous y allons et nous ne trouvons pas l'animal parce que nous ne savions pas exactement où il se trouvait.</p>
+        <p class="cs-src">Amina Triqui, responsable de l'association PAT (entretien en ligne de 20 minutes)</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 02 Diagnostic -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Diagnostic</span><h2>Un écosystème à <em>connecter</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Quatre acteurs gravitent autour de l'association : le grand public qui signale, les vétérinaires qui soignent, les donateurs qui financent et PAT qui coordonne. Le benchmark (SPA, Protection des Enfants à Quatre Pattes) révèle les mêmes limites partout : refuges saturés, dépendance aux dons, suivi difficile et <strong>manque d'outils numériques</strong>.</p>
+        <div class="shot" style="margin-top:40px"><img src="pat-ecosysteme.jpg" alt="Écosystème PAT : grand public, association, donateurs et vétérinaires"></div>
+        <p class="cap">Cartographie des parties prenantes.</p>
+        <p class="cs-quote" style="margin-top:48px;font-size:clamp(22px,2.6vw,34px);max-width:36ch">Comment le design digital peut-il transformer le signalement spontané d'animaux errants en une action collective, coordonnée et pérenne ?</p>
+        <p class="cs-src">Problématique</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 03 Persona -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Utilisateur</span><h2>Amine, <em>28 ans</em>, veut aider sans savoir comment</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Employé de bureau au Bardo, très actif sur les réseaux sociaux, il s'arrête dès qu'il voit un animal en détresse. <strong>Sa frustration :</strong> il a déjà posté des photos sur Facebook, mais l'association n'a jamais trouvé l'animal, ses indications étant trop vagues (« près du kiosque après le feu rouge »).</p>
+        <div class="shot" style="margin-top:40px"><img src="pat-persona.jpg" alt="Persona Amine Troudi : comportement, motivation et frustration"></div>
+        <div class="kpis">
+          <div class="kpi"><b>01</b><span>Signalement immédiat d'un animal en détresse, avec photo et GPS</span></div>
+          <div class="kpi"><b>02</b><span>Accessibilité rapide pour tous les utilisateurs</span></div>
+          <div class="kpi"><b>03</b><span>Centralisation des informations et des actions</span></div>
+        </div>
+        <p class="cap">Positionnement de la solution, pour plus de réactivité et un temps de prise en charge réduit.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 04 Architecture -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">04 / Architecture</span><h2>Quatre modules, <em>un seul</em> parcours</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Signaler une urgence, adopter, parrainer un animal et suivre les actions de l'association : chaque module répond à un acteur de l'écosystème. Le signalement est la priorité maximale de l'arborescence.</p>
+      </div></div>
+      <div class="plates">
+        <div class="shot"><img src="pat-fonctions.jpg" alt="Fonctionnalités clés : signaler, adopter, parrainer, infos et suivi"></div>
+        <div class="shot"><img src="pat-sitemap.jpg" alt="Sitemap de PATCare en cinq rubriques"></div>
+      </div>
+      <p class="cap">Fonctionnalités clés et sitemap.</p>
+    </div>
+  </section>
+
+  <!-- 05 Écrans -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">05 / UI Design</span><h2>Du signalement <em>au sauvetage</em></h2></div>
+      <div class="flow" tabindex="0" aria-label="Écrans de l'application, faire défiler horizontalement">
+        <figure><img src="pat-1.jpg" alt="Écran de connexion"><figcaption><b>01 Connexion</b>E-mail, Google ou Facebook.</figcaption></figure>
+        <figure><img src="pat-2.jpg" alt="Accueil avec le bouton SOS signalement"><figcaption><b>02 SOS</b>Signaler une urgence en un clic.</figcaption></figure>
+        <figure><img src="pat-3.jpg" alt="Suivi de l'intervention sur carte"><figcaption><b>03 Suivi</b>Le sauveteur en route, en temps réel.</figcaption></figure>
+        <figure><img src="pat-4.jpg" alt="Histoires d'animaux rescapés"><figcaption><b>04 Nos rescapés</b>Les sauvetages réussis.</figcaption></figure>
+        <figure><img src="pat-5.jpg" alt="Catalogue d'animaux à adopter"><figcaption><b>05 Adopter</b>Trouver son futur compagnon.</figcaption></figure>
+        <figure><img src="pat-6.jpg" alt="Chiffres d'impact de l'association"><figcaption><b>06 Impact</b>Sauvetages, adoptions, donateurs.</figcaption></figure>
+        <figure><img src="pat-7.jpg" alt="Choix du montant de parrainage"><figcaption><b>07 Parrainer</b>Choisir son soutien mensuel.</figcaption></figure>
+        <figure><img src="pat-8.jpg" alt="Profil utilisateur"><figcaption><b>08 Profil</b>Adoptions, parrainages et badges.</figcaption></figure>
+      </div>
+      <p class="cap">Faites défiler pour voir tous les écrans →</p>
+    </div>
+  </section>
+
+  <!-- 06 Prototype + SUS -->
+  <section class="cs-sec">
+    <div class="wrap demo">
+      <div class="device"><video src="pat-prototype.mp4" poster="pat-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Démonstration du prototype PATCare"></video></div>
+      <div>
+        <div class="cs-head" style="display:block;margin-bottom:24px"><span class="num" style="display:block;margin-bottom:16px">06 / Prototype &amp; test</span><h2>Testé, <em>validé</em></h2></div>
+        <p>Le prototype interactif couvre tout le parcours : connexion, signalement SOS, suivi de l'intervention, adoption, parrainage et profil. Il a été évalué avec le questionnaire SUS (System Usability Scale).</p>
+        <div class="sus">
+          <b>80<small>/100</small></b>
+          <div>
+            <strong style="font-family:var(--display);font-size:22px">Très bon niveau d'utilisabilité</strong>
+            <div class="gauge" aria-hidden="true"><i style="left:80%"></i></div>
+            <div class="gauge-scale"><span>0</span><span>50</span><span>100</span></div>
+            <p style="margin-top:14px;font-size:14px">Recommandations : consolider le design system actuel, valoriser l'intuitivité de l'interface et automatiser les points forts du parcours.</p>
+          </div>
+        </div>
+        <div class="cs-next">
+          <a class="btn" href="#voltup">Projet suivant : VoltUP <span class="arr">→</span></a>
+          <a class="btn ghost" href="#projets">← Tous les projets</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== ÉTUDE DE CAS : VOLTUP ===================== -->
+<article class="cs volt" id="cs-voltup" hidden aria-labelledby="volt-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">Étude de cas · Lean UX &amp; UI mobile</span>
+      <h1 class="cs-title" id="volt-title">Volt<em>UP</em></h1>
+      <p class="cs-lead">Une application pour trouver une borne, planifier un trajet et appeler un dépannage : rendre la recharge électrique simple et fiable en Tunisie.</p>
+      <dl class="cs-facts">
+        <div><dt>Contexte</dt><dd>Projet Lean UX, master Design Digital</dd></div>
+        <div><dt>Rôle</dt><dd>UX/UI Designer, projet individuel</dd></div>
+        <div><dt>Encadrement</dt><dd>Mme Mkaouar Souhir</dd></div>
+        <div><dt>Domaine</dt><dd>Mobilité électrique</dd></div>
+      </dl>
+    </div>
+    <div class="cs-cover" aria-hidden="true">
+      <img src="lx-1.jpg" alt=""><img src="lx-2.jpg" alt=""><img src="lx-5.jpg" alt=""><img src="lx-8.jpg" alt=""><img src="lx-10.jpg" alt="">
+    </div>
+  </header>
+
+  <!-- 01 Contexte -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Le contexte</span><h2>Plus de voitures, <em>pas assez</em> de bornes</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Le parc électrique tunisien grandit vite, mais le réseau de recharge ne suit pas. L'ANME, avec la STEG et AGIL, déploie un réseau national, encore concentré sur quelques axes et stations-service.</p>
+        <div class="kpis">
+          <div class="kpi"><b>×2</b><span>véhicules électriques : de 260 fin 2024 à environ 570 au 1er semestre 2025</span></div>
+          <div class="kpi"><b>160</b><span>bornes visées par l'ANME d'ici 2025 sur tout le territoire</span></div>
+          <div class="kpi"><b>5 000</b><span>bornes nécessaires d'ici 2030, contre 170 aujourd'hui</span></div>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 02 Recherche -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / La recherche</span><h2>Les points <em>de friction</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>L'analyse du réseau et des retours de conducteurs fait ressortir quatre freins : des bornes surtout lentes (22 à 50 kW, insuffisant sur autoroute), un maillage trop faible, un équipement coûteux (droits de douane de 10 %) et une forte concentration géographique. Sur le terrain, les bornes sont souvent en panne ou occupées, sans aucune information en temps réel.</p>
+      </div></div>
+      <div class="plates">
+        <div class="plate"><img src="lx-s3.jpg" alt="Les quatre points de friction de la recharge en Tunisie"></div>
+        <div class="plate"><img src="lx-s7.jpg" alt="Carte des bornes de recharge en Tunisie"></div>
+      </div>
+      <div class="plate" style="margin-top:16px"><img src="lx-s10.jpg" alt="Benchmark : application Energika en Tunisie et PlugShare à l'international"></div>
+      <p class="cap">Points de friction, cartographie des bornes et benchmark (Energika en Tunisie, PlugShare à l'international).</p>
+    </div>
+  </section>
+
+  <!-- 03 Cadrage -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Cadrage</span><h2>Vaincre <em>l'angoisse de la panne</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <div class="loop" style="margin-top:0">
+          <div><small>Le problème</small><h3>Un réseau peu fiable</h3><p>Bornes lentes, pannes fréquentes et aucune donnée en temps réel.</p></div>
+          <div><small>L'impact</small><h3>Une adoption freinée</h3><p>La peur de tomber en panne ralentit le passage à l'électrique et les objectifs 2030.</p></div>
+          <div><small>La cible</small><h3>Conducteurs et gestionnaires</h3><p>Conducteurs urbains et voyageurs, gestionnaires de bornes publics et privés.</p></div>
+        </div>
+        <p class="cs-quote" style="margin-top:48px;font-size:clamp(22px,2.6vw,34px);max-width:36ch">Comment développer des solutions accessibles et fiables pour faciliter la recharge et encourager la transition énergétique ?</p>
+        <p class="cs-src">Problématique</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- 04 Écrans -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">04 / UI Design</span><h2>Le happy path, <em>en 10 écrans</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Cinq étapes : l'accueil, l'inscription avec le véhicule, la carte et la planification du trajet, l'assistance d'urgence, puis le paiement et le suivi du dépanneur. Une interface sombre et des accents bleu électrique pour une image premium et technologique.</p>
+      </div></div>
+      <div class="flow" tabindex="0" aria-label="Écrans de l'application, faire défiler horizontalement">
+        <figure><img src="lx-1.jpg" alt="Splash screen VoltUP"><figcaption><b>01 Splash</b>VoltUP, e-mobility premium.</figcaption></figure>
+        <figure><img src="lx-2.jpg" alt="Écran de bienvenue"><figcaption><b>02 Bienvenue</b>Créer un compte ou se connecter.</figcaption></figure>
+        <figure><img src="lx-4.jpg" alt="Création de compte en trois étapes"><figcaption><b>03 Inscription</b>Un compte en trois étapes.</figcaption></figure>
+        <figure><img src="lx-3.jpg" alt="Choix du modèle de véhicule"><figcaption><b>04 Mon véhicule</b>Modèle et immatriculation.</figcaption></figure>
+        <figure><img src="lx-5.jpg" alt="Carte des bornes avec leur disponibilité"><figcaption><b>05 Carte</b>Bornes disponibles, en cours ou occupées.</figcaption></figure>
+        <figure><img src="lx-6.jpg" alt="Planification de trajet avec autonomie"><figcaption><b>06 Trajet</b>Distance, autonomie et batterie.</figcaption></figure>
+        <figure><img src="lx-7.jpg" alt="Écran Besoin d'aide"><figcaption><b>07 SOS</b>Alerter un dépannage en un geste.</figcaption></figure>
+        <figure><img src="lx-8.jpg" alt="Choix du service de dépannage"><figcaption><b>08 Dépannage</b>Recharge mobile ou remorquage.</figcaption></figure>
+        <figure><img src="lx-9.jpg" alt="Paiement en ligne"><figcaption><b>09 Paiement</b>Paiement sécurisé par carte ou wallet.</figcaption></figure>
+        <figure><img src="lx-10.jpg" alt="Suivi de l'arrivée du dépanneur"><figcaption><b>10 Suivi</b>Le dépanneur arrive dans 12 min.</figcaption></figure>
+      </div>
+      <p class="cap">Faites défiler pour voir tous les écrans →</p>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#maybank">Projet suivant : Maybank <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PROJET : MAYBANK ===================== -->
+<article class="cs bank" id="cs-maybank" hidden aria-labelledby="bk-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">UI Design · Landing page</span>
+      <h1 class="cs-title" id="bk-title">May<em>bank</em></h1>
+      <p class="cs-lead">La landing page d'une néo-banque pour les freelances et les natifs du numérique : rapide, claire et sans petites lignes.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Landing page, desktop</dd></div>
+        <div><dt>Rôle</dt><dd>UI Designer</dd></div>
+        <div><dt>Outil</dt><dd>Figma</dd></div>
+        <div><dt>Année</dt><dd>2026</dd></div>
+      </dl>
+      <div class="stage"><video src="bk-mockup.mp4" poster="bk-mockup.jpg" autoplay muted loop playsinline aria-label="Défilement de la landing page Maybank dans un mockup d'ordinateur"></video></div>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / L'intention</span><h2>Une banque qui <em>inspire confiance</em> sans être austère</h2></div>
+      <div class="cs-body"><div class="col">
+        <p>La page s'adresse aux indépendants et aux pionniers du numérique. Le parti pris : une typographie grotesque très grande, un fond crème chaleureux, un violet profond pour la confiance et un orange vif réservé à l'essentiel. Le parcours suit une logique de conversion : promesse, bénéfices, preuve sociale, puis appel à l'action.</p>
+        <div class="palette-row" aria-label="Palette">
+          <div style="background:#6000C4;color:#fff">Violet</div>
+          <div style="background:#FF6A13;color:#fff">Orange</div>
+          <div style="background:#FDF9F8;color:#16141C;border:1px solid var(--cline)">Crème</div>
+          <div style="background:#16141C;color:#fff">Encre</div>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Les sections</span><h2>De la promesse <em>à l'action</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p><strong>Hero :</strong> un titre fort et une carte bancaire en dégradé, inclinée pour donner du mouvement. <strong>Bénéfices :</strong> une grille bento (vitesse, simplicité, sécurité, analyses) avec une seule carte violette pour guider l'œil. <strong>Preuve sociale</strong> avec trois témoignages, puis un grand bloc violet pour ouvrir un compte.</p>
+      </div></div>
+      <div class="plate plate-wide"><img src="bk-hero.jpg" alt="Section hero : La banque qui parle votre langue, avec une carte bancaire en dégradé"></div>
+      <div class="plates">
+        <div class="plate"><img src="bk-features.jpg" alt="Grille bento des bénéfices : vitesse, simplicité, sécurité et analyses"></div>
+        <div class="plate"><img src="bk-cta.jpg" alt="Bloc d'appel à l'action violet : Prêt à faire fructifier votre capital ?"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / La page complète</span><h2>Faites défiler <em>la maquette</em></h2></div>
+      <div class="browser">
+        <div class="browser-bar"><i></i><i></i><i></i><span>maybank.design</span></div>
+        <div class="browser-view" tabindex="0" aria-label="Maquette complète, faire défiler"><img src="bk-full.jpg" alt="Maquette complète de la landing page Maybank"></div>
+      </div>
+      <p class="cap">Faites défiler à l'intérieur de la fenêtre pour parcourir toute la page.</p>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#mbooking">Projet suivant : MBooking <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PROJET : MBOOKING ===================== -->
+<article class="cs cine" id="cs-mbooking" hidden aria-labelledby="cn-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">UI Design · Application mobile</span>
+      <h1 class="cs-title" id="cn-title">M<em>Booking</em></h1>
+      <p class="cs-lead">Une application de réservation de cinéma : choisir un film, une salle, sa place et obtenir son billet, sans passer par le guichet.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Application mobile iOS</dd></div>
+        <div><dt>Rôle</dt><dd>UI Designer</dd></div>
+        <div><dt>Outil</dt><dd>Figma</dd></div>
+        <div><dt>Écrans</dt><dd>5 écrans clés</dd></div>
+      </dl>
+    </div>
+    <div class="showcase" aria-hidden="true">
+      <div class="iphone"><div class="scr"><img src="cn-5.jpg" alt=""></div></div>
+      <div class="iphone"><div class="scr"><img src="cn-1.jpg" alt=""></div></div>
+      <div class="iphone lg scroll" style="--d:16s"><div class="scr"><img src="cn-2.jpg" alt=""></div></div>
+      <div class="iphone"><div class="scr"><img src="cn-4.jpg" alt=""></div></div>
+      <div class="iphone scroll" style="--d:18s"><div class="scr"><img src="cn-3.jpg" alt=""></div></div>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Le parcours</span><h2>Cinq écrans, <em>une séance</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Le parcours va droit au but : découvrir les films à l'affiche, consulter la fiche, choisir son cinéma, sa séance et ses places, puis présenter son billet. Fond clair pour la découverte, noir et rouge pour les moments d'action comme la réservation et le billet.</p>
+      </div></div>
+      <div class="steps-ph">
+        <figure><div class="iphone"><div class="scr"><img src="cn-1.jpg" alt="Écran de bienvenue MBooking avec connexion et inscription"></div></div><figcaption><b>01 Bienvenue</b>Se connecter ou créer un compte.</figcaption></figure>
+        <figure><div class="iphone scroll" style="--d:14s"><div class="scr"><img src="cn-2.jpg" alt="Accueil : films à l'affiche et prochaines sorties"></div></div><figcaption><b>02 Accueil</b>À l'affiche et prochaines sorties.</figcaption></figure>
+        <figure><div class="iphone scroll" style="--d:16s"><div class="scr"><img src="cn-3.jpg" alt="Fiche du film : note, synopsis, réalisateurs, acteurs et cinémas"></div></div><figcaption><b>03 Fiche film</b>Synopsis, casting et cinémas proches.</figcaption></figure>
+        <figure><div class="iphone"><div class="scr"><img src="cn-4.jpg" alt="Choix des places, de la date et de l'heure"></div></div><figcaption><b>04 Places</b>Plan de salle, date et séance.</figcaption></figure>
+        <figure><div class="iphone"><div class="scr"><img src="cn-5.jpg" alt="Billet avec code-barres"></div></div><figcaption><b>05 Billet</b>À présenter au guichet.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Zoom UI</span><h2>Les écrans <em>qui comptent</em></h2></div>
+
+      <div class="focus">
+        <div class="iphone lg"><div class="scr"><img src="cn-4.jpg" alt="Sélection des places dans la salle"></div></div>
+        <div>
+          <h3>Choisir sa place d'un coup d'œil</h3>
+          <ul>
+            <li><strong>Trois états lisibles :</strong> disponible en gris foncé, réservé en brun, sélectionné en rouge, avec une légende juste sous le plan.</li>
+            <li><strong>Date et heure en carrousels</strong> horizontaux, la sélection active ressort en rouge.</li>
+            <li><strong>Total toujours visible</strong> à côté du bouton « Buy ticket » : le prix suit chaque place choisie.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="focus rev">
+        <div>
+          <h3>Un billet prêt à scanner</h3>
+          <ul>
+            <li><strong>Toutes les infos de la séance</strong> regroupées : film, durée, date, heure, section et sièges.</li>
+            <li><strong>Le cinéma et son adresse</strong> pour s'y rendre facilement.</li>
+            <li><strong>Un code-barres</strong> et un numéro de commande à présenter au guichet.</li>
+          </ul>
+        </div>
+        <div class="iphone lg"><div class="scr"><img src="cn-5.jpg" alt="Billet électronique avec code-barres"></div></div>
+      </div>
+
+      <div class="focus">
+        <div class="iphone lg scroll" style="--d:16s"><div class="scr"><img src="cn-3.jpg" alt="Fiche détaillée du film"></div></div>
+        <div>
+          <h3>Une fiche film complète</h3>
+          <ul>
+            <li><strong>Note et bande-annonce</strong> dès le haut de l'écran.</li>
+            <li><strong>Infos pratiques</strong> : genre, classification par âge, langue.</li>
+            <li><strong>Cinémas à proximité</strong> avec la distance, pour passer directement à la réservation.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cs-next" style="margin-top:56px">
+        <a class="btn" href="#droits">Projet suivant : Droits.tn <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PROJET : DROITS D'AUTEUR ===================== -->
+<article class="cs da" id="cs-droits" hidden aria-labelledby="da-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero" style="padding-bottom:clamp(48px,6vw,80px)">
+    <div class="wrap">
+      <span class="cs-kicker">Web design · Site d'information juridique</span>
+      <h1 class="cs-title" id="da-title">Droits<em>.tn</em></h1>
+      <p class="cs-lead">Un site qui aide les créateurs, entrepreneurs et freelances à comprendre leurs droits d'auteur en Tunisie, avec des outils simples et pédagogiques.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Site web, one-page desktop</dd></div>
+        <div><dt>Rôle</dt><dd>UX/UI Designer</dd></div>
+        <div><dt>Outil</dt><dd>Figma</dd></div>
+        <div><dt>Année</dt><dd>2026</dd></div>
+      </dl>
+      <div class="da-stage">
+        <div class="macbook">
+          <div class="mb-screen"><div class="mb-cam"></div><video src="dt-demo.mp4" poster="dt-poster.jpg" autoplay muted loop playsinline aria-label="Défilement de la page Droits.tn, de l'accueil aux ressources"></video></div>
+          <div class="mb-base"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / L'idée</span><h2>Le droit, <em>en langage clair</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Les créateurs tunisiens connaissent mal leurs droits : qui possède le code livré à un client, un logo peut-il aller dans un portfolio, un organisateur peut-il utiliser librement des photos ? Droits.tn transforme un sujet juridique intimidant en parcours simple : comprendre, vérifier, puis agir. Beaucoup de blanc pour la lisibilité, un rouge franc pour les actions, et une date de mise à jour sur chaque section pour inspirer confiance.</p>
+        <div class="users">
+          <div><b>Créateurs</b><span>Designers, photographes, créateurs de contenu.</span></div>
+          <div><b>Freelances</b><span>Développeurs et indépendants qui livrent des œuvres à des clients.</span></div>
+          <div><b>Entrepreneurs</b><span>Startups qui doivent rendre leur site conforme.</span></div>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Les sections</span><h2>Comprendre, vérifier, <em>agir</em></h2></div>
+      <div class="feat-grid">
+        <figure class="full">
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i><span>Droits.tn</span></div><img src="dt-hero.jpg" alt="Accueil : Protégez vos créations facilement, avec un bouton vers l'auto-évaluation"></div>
+          <figcaption><b>Accueil</b>Une promesse claire, une illustration 3D et un appel à l'auto-évaluation, aussi accessible en permanence via un bouton flottant.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="dt-process.jpg" alt="Comment fonctionnent les droits d'auteur : création, protection, exploitation"></div>
+          <figcaption><b>Le fonctionnement en 3 étapes</b>Création, protection, exploitation : l'essentiel du droit d'auteur résumé en trois cartes.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="dt-checklist.jpg" alt="Checklist légale avec barre de progression sur 5 points"></div>
+          <figcaption><b>Checklist légale</b>Cinq obligations pour un site conforme, avec une progression et une version PDF à télécharger.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="dt-glossaire.jpg" alt="Glossaire juridique en accordéon avec recherche"></div>
+          <figcaption><b>Glossaire juridique</b>Huit termes essentiels en accordéon, avec une recherche : on n'ouvre que ce dont on a besoin.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="dt-ressources.jpg" alt="Ressources à télécharger : checklist, guide et modèles juridiques"></div>
+          <figcaption><b>Ressources à télécharger</b>Checklist complète, guide simplifié et modèles juridiques prêts à adapter.</figcaption>
+        </figure>
+        <figure class="full">
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="dt-cas.jpg" alt="Cas pratiques : développeur freelance, designer graphique, photographe, content creator"></div>
+          <figcaption><b>Cas pratiques</b>Quatre profils, un même code couleur : la situation en gris, la question en rouge, la réponse en vert.</figcaption>
+        </figure>
+      </div>
+      <div class="cs-next" style="margin-top:40px">
+        <a class="btn" href="#monsapo">Projet suivant : Monsapo <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PROJET : MONSAPO ===================== -->
+<article class="cs da ms" id="cs-monsapo" hidden aria-labelledby="ms-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero" style="padding-bottom:clamp(48px,6vw,80px)">
+    <div class="wrap">
+      <span class="cs-kicker">Web design · E-commerce</span>
+      <h1 class="cs-title" id="ms-title">Mon<em>sapo</em></h1>
+      <p class="cs-lead">Le site e-commerce d'une marque tunisienne de produits d'entretien écologiques : efficaces, naturels et économiques.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Site e-commerce, desktop</dd></div>
+        <div><dt>Rôle</dt><dd>UI Designer</dd></div>
+        <div><dt>Outil</dt><dd>Figma</dd></div>
+        <div><dt>Secteur</dt><dd>Entretien écologique</dd></div>
+      </dl>
+      <div class="da-stage">
+        <div class="macbook">
+          <div class="mb-screen"><div class="mb-cam"></div><video src="ms-demo.mp4" poster="ms-poster.jpg" autoplay muted loop playsinline aria-label="Défilement de la page d'accueil Monsapo"></video></div>
+          <div class="mb-base"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / L'intention</span><h2>Vendre l'écologie <em>sans culpabiliser</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Monsapo fabrique des produits ménagers à partir d'ingrédients minéraux et végétaux et d'huile végétale recyclée. La page d'accueil devait rassurer sur l'efficacité, montrer l'engagement écologique et donner envie d'acheter, pour les particuliers comme pour les entreprises. La palette reprend la marque : vert pour la nature, bleu pour la propreté, jaune pour les boutons d'achat.</p>
+        <div class="users">
+          <div><b>Efficace</b><span>Des matières premières renouvelables aux qualités nettoyantes prouvées.</span></div>
+          <div><b>Naturel</b><span>Une gamme composée à partir d'ingrédients minéraux et végétaux.</span></div>
+          <div><b>Économique</b><span>Des produits sains et doux pour le portefeuille.</span></div>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Les sections</span><h2>De la promesse <em>au panier</em></h2></div>
+      <div class="feat-grid">
+        <figure class="full">
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i><span>Monsapo</span></div><img src="ms-hero.jpg" alt="Accueil : trois promesses Efficace, Naturel, Économique avec boutons Acheter et seau de produits ménagers"></div>
+          <figcaption><b>Accueil</b>Une barre de recherche bien visible et trois promesses, chacune avec son bouton « Acheter » jaune.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="ms-ventes.jpg" alt="Meilleures ventes : vinaigre blanc, lessive lavande et savon noir avec leurs prix"></div>
+          <figcaption><b>Meilleures ventes</b>Des cartes produit bilingues français et arabe, avec prix et ajout au panier au survol.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="ms-innovation.jpg" alt="Notre innovation : économie circulaire, réduction des déchets et huile végétale usagée"></div>
+          <figcaption><b>Notre innovation</b>L'économie circulaire expliquée en deux engagements : réduire les déchets et recycler l'huile végétale.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="ms-services.jpg" alt="Services : livraison offerte, retours, paiement sécurisé, et logo Monsapo Community"></div>
+          <figcaption><b>Réassurance</b>Livraison offerte, retours et paiement sécurisé, à côté de la communauté Monsapo.</figcaption>
+        </figure>
+        <figure>
+          <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="ms-contact.jpg" alt="Contact, inscription à la newsletter et pied de page"></div>
+          <figcaption><b>Contact &amp; newsletter</b>Téléphone, e-mail et adresse en cartes, un formulaire d'inscription et un pied de page complet.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / La page complète</span><h2>Faites défiler <em>la maquette</em></h2></div>
+      <div class="browser">
+        <div class="browser-bar"><i></i><i></i><i></i><span>Monsapo</span></div>
+        <div class="browser-view" tabindex="0" aria-label="Maquette complète, faire défiler"><img src="ms-full.jpg" alt="Maquette complète de la page d'accueil Monsapo"></div>
+      </div>
+      <p class="cap">Faites défiler à l'intérieur de la fenêtre pour parcourir toute la page.</p>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#exersize">Projet suivant : Exersize <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PROJET : EXERSIZE ===================== -->
+<article class="cs cine gym" id="cs-exersize" hidden aria-labelledby="gy-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">UI Design · Application mobile</span>
+      <h1 class="cs-title" id="gy-title">Exer<em>size</em></h1>
+      <p class="cs-lead">Une application de salle de sport qui réunit entraînement, méditation, yoga et nutrition, avec un ton léger qui donne envie de s'y mettre.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Application mobile iOS</dd></div>
+        <div><dt>Rôle</dt><dd>UI Designer</dd></div>
+        <div><dt>Outil</dt><dd>Figma</dd></div>
+        <div><dt>Écrans</dt><dd>5 écrans clés</dd></div>
+      </dl>
+    </div>
+    <div class="showcase" aria-hidden="true">
+      <div class="iphone"><div class="scr"><img src="gy-4.jpg" alt=""></div></div>
+      <div class="iphone"><div class="scr"><img src="gy-2.jpg" alt=""></div></div>
+      <div class="iphone lg"><div class="scr"><img src="gy-1.jpg" alt=""></div></div>
+      <div class="iphone"><div class="scr"><img src="gy-3.jpg" alt=""></div></div>
+      <div class="iphone"><div class="scr"><img src="gy-5.jpg" alt=""></div></div>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / L'intention</span><h2>Le sport, <em>avec le sourire</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Exersize mise sur l'humour pour lever la barrière de la motivation : « Waffles are just pancakes with abs », « Too much protein? No whey, mate! ». L'interface reste épurée : un violet lavande doux pour l'univers bien-être, un <span class="lime">vert citron</span> énergique réservé aux valeurs clés et à l'action, et des illustrations 3D pour l'écran d'accueil.</p>
+        <div class="palette-row" aria-label="Palette">
+          <div style="background:#A89BF5;color:#17151F">Lavande</div>
+          <div style="background:#D7F65A;color:#17151F">Citron vert</div>
+          <div style="background:#1C1C1E;color:#fff">Noir</div>
+          <div style="background:#F6F5FB;color:#17151F;border:1px solid var(--cline)">Blanc lilas</div>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Le parcours</span><h2>Cinq écrans, <em>une routine</em></h2></div>
+      <div class="steps-ph">
+        <figure><div class="iphone"><div class="scr"><img src="gy-1.jpg" alt="Écran d'accueil Exersize avec illustrations 3D et bouton Get Started"></div></div><figcaption><b>01 Bienvenue</b>Une accroche drôle et un seul bouton.</figcaption></figure>
+        <figure><div class="iphone"><div class="scr"><img src="gy-2.jpg" alt="Tableau de bord : plan du jour et statistiques de la semaine"></div></div><figcaption><b>02 Tableau de bord</b>Le plan du jour et l'activité de la semaine.</figcaption></figure>
+        <figure><div class="iphone"><div class="scr"><img src="gy-3.jpg" alt="Choix d'un entraînement : course, niveau et vitesse"></div></div><figcaption><b>03 Entraînement</b>Choisir une activité et son niveau.</figcaption></figure>
+        <figure><div class="iphone"><div class="scr"><img src="gy-4.jpg" alt="Choix d'une méditation avec durée"></div></div><figcaption><b>04 Méditation</b>Même gabarit, autre contenu.</figcaption></figure>
+        <figure><div class="iphone"><div class="scr"><img src="gy-5.jpg" alt="Choix d'un cours de yoga avec durée"></div></div><figcaption><b>05 Yoga</b>Le niveau avancé sélectionné.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Zoom UI</span><h2>Les écrans <em>qui comptent</em></h2></div>
+
+      <div class="focus">
+        <div class="iphone lg"><div class="scr"><img src="gy-2.jpg" alt="Tableau de bord Exersize"></div></div>
+        <div>
+          <h3>Un tableau de bord qui motive</h3>
+          <ul>
+            <li><strong>Le plan du jour en tuiles :</strong> entraînement, méditation et nutrition, avec leur durée ou leurs calories.</li>
+            <li><strong>Un seul bouton noir « Let's Go »</strong> pour démarrer sans réfléchir.</li>
+            <li><strong>Les statistiques de la semaine</strong> en barres lavande, le jour le plus actif mis en avant en vert citron.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="focus rev">
+        <div>
+          <h3>Un gabarit, trois activités</h3>
+          <ul>
+            <li><strong>Un composant réutilisable :</strong> la même structure sert à l'entraînement, à la méditation et au yoga. Seuls l'icône, le titre et la valeur changent.</li>
+            <li><strong>L'icône au centre</strong> dans un halo lavande, les activités voisines de chaque côté pour passer de l'une à l'autre.</li>
+            <li><strong>Le niveau en segments</strong> (débutant, intermédiaire, avancé) et la valeur clé en vert citron : vitesse ou durée.</li>
+          </ul>
+        </div>
+        <div class="iphone lg"><div class="scr"><img src="gy-3.jpg" alt="Écran de choix d'entraînement"></div></div>
+      </div>
+
+      <div class="cs-next" style="margin-top:56px">
+        <a class="btn" href="#ixia">Projet suivant : Institut IXIA <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== PROJET : BOHÈME PHOTO ===================== -->
+<article class="cs ph" id="cs-boheme" hidden aria-labelledby="ph-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero" style="padding-bottom:clamp(48px,6vw,80px)">
+    <div class="wrap">
+      <span class="cs-kicker">Photographie produit · Stylisme culinaire</span>
+      <h1 class="cs-title" id="ph-title">Boh<em>ème</em></h1>
+      <p class="cs-lead">Un shooting produit pour les verrines et crumbles de Bohème : une lumière douce, un satin couleur pêche et des accessoires choisis pour raconter « l'instant des mille saveurs ».</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Shooting produit</dd></div>
+        <div><dt>Rôle</dt><dd>Photographe, stylisme et direction artistique</dd></div>
+        <div><dt>Marque</dt><dd>Bohème, pâtisserie</dd></div>
+        <div><dt>Série</dt><dd>12 photos</dd></div>
+      </dl>
+      <div class="ph-hero">
+        <figure class="tall"><img src="ph-12.jpg" alt="Verrine Bohème sous une pluie de cacao"></figure>
+        <figure><img src="ph-5.jpg" alt="Trois verrines Bohème sur un drapé de satin pêche"></figure>
+      </div>
+    </div>
+  </header>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Direction artistique</span><h2>Douceur, matière <em>et gourmandise</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Les tons du décor prolongent ceux du produit : satin pêche et nude pour la douceur, chocolat et spéculoos pour la gourmandise, argent et perles pour une touche raffinée qui répond à l'étiquette calligraphiée de la marque. Faible profondeur de champ pour isoler la verrine, et quelques images en mouvement pour donner de la vie à la série. C'est la même marque que celle de l'animation de logo présentée dans Motion design.</p>
+        <div class="moodboard" aria-label="Palette">
+          <div style="background:#E8C3A3;color:#2B1D15">Satin pêche</div>
+          <div style="background:#F3E3C3;color:#2B1D15">Crème</div>
+          <div style="background:#5A3624;color:#fff">Chocolat</div>
+          <div style="background:#C9C6C2;color:#2B1D15">Argent</div>
+        </div>
+        <div class="props"><span>Drapé de satin</span><span>Pages de livre</span><span>Plateau argenté martelé</span><span>Collier de perles</span><span>Cuillère dorée</span><span>Napperon au crochet</span><span>Aspersoir en argent</span><span>Cacao en poudre</span></div>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / La série</span><h2>Douze <em>images</em></h2></div>
+      <div class="masonry">
+          <button type="button" data-lb="ph-1.jpg" data-cap="Trio de verrines sous dôme"><img src="ph-1.jpg" alt="Trois verrines Bohème sous dôme transparent, mise au point sur la plus proche" loading="lazy"></button>
+          <button type="button" data-lb="ph-9.jpg" data-cap="Verrine sur plateau argenté et perles"><img src="ph-9.jpg" alt="Verrine sur plateau argenté martelé, collier de perles" loading="lazy"></button>
+          <button type="button" data-lb="ph-2.jpg" data-cap="Mise en scène sur pages de livre"><img src="ph-2.jpg" alt="Verrine posée sur des pages de livre, autres verrines floues en arrière-plan" loading="lazy"></button>
+          <button type="button" data-lb="ph-10.jpg" data-cap="Verrine et aspersoir en argent"><img src="ph-10.jpg" alt="Verrine sur satin pêche avec un aspersoir en argent" loading="lazy"></button>
+          <button type="button" data-lb="ph-3.jpg" data-cap="Gros plan sur l'étiquette"><img src="ph-3.jpg" alt="Gros plan d'une verrine, étiquette Bohème L'instant des milles saveurs" loading="lazy"></button>
+          <button type="button" data-lb="ph-4.jpg" data-cap="Vue du dessus"><img src="ph-4.jpg" alt="Vue du dessus : verrines au chocolat et spéculoos sur pages de livre" loading="lazy"></button>
+          <button type="button" data-lb="ph-8.jpg" data-cap="Cuillère dorée et perles"><img src="ph-8.jpg" alt="Verrine avec cuillère dorée et perles sur plateau argenté" loading="lazy"></button>
+          <button type="button" data-lb="ph-5.jpg" data-cap="Trio sur drapé de satin"><img src="ph-5.jpg" alt="Trois verrines sur un drapé de satin pêche" loading="lazy"></button>
+          <button type="button" data-lb="ph-6.jpg" data-cap="Crumble pistache"><img src="ph-6.jpg" alt="Pot de crumble pistache sur napperon et satin" loading="lazy"></button>
+          <button type="button" data-lb="ph-7.jpg" data-cap="La main dans le cadre"><img src="ph-7.jpg" alt="Main saisissant le pot de crumble" loading="lazy"></button>
+          <button type="button" data-lb="ph-11.jpg" data-cap="Cacao en suspension"><img src="ph-11.jpg" alt="Cacao saupoudré en pluie sur une verrine" loading="lazy"></button>
+          <button type="button" data-lb="ph-12.jpg" data-cap="Le dôme recouvert de cacao"><img src="ph-12.jpg" alt="Dôme recouvert de cacao, poudre en suspension" loading="lazy"></button>
+      </div>
+      <p class="cap">Cliquez sur une photo pour l'agrandir.</p>
+    </div>
+  </section>
+
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Le moment clé</span><h2>Capturer <em>le mouvement</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Pour les images de clôture, le cacao est saupoudré pendant la prise de vue : une vitesse d'obturation rapide fige la poudre en suspension au-dessus du dôme, et le produit devient une scène.</p>
+      </div></div>
+      <div class="duo-tall">
+        <button type="button" data-lb="ph-11.jpg" data-cap="Cacao en suspension"><img src="ph-11.jpg" alt="Cacao saupoudré en pluie sur une verrine" loading="lazy"></button>
+        <button type="button" data-lb="ph-12.jpg" data-cap="Le dôme recouvert de cacao"><img src="ph-12.jpg" alt="Dôme recouvert de cacao, poudre en suspension" loading="lazy"></button>
+      </div>
+      <div class="cs-next" style="margin-top:40px">
+        <a class="btn" href="#ecoresto">Revenir au début : EcoResto <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== ÉTUDE DE CAS : FLEXOPRINT ===================== -->
+<article class="cs fx" id="cs-flexoprint" hidden aria-labelledby="fx-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">Identité visuelle · Charte graphique</span>
+      <h1 class="cs-title" id="fx-title">Flexo<em>print</em></h1>
+      <p class="cs-lead">Une identité pour un imprimeur d'emballages souples : un logo qui raconte la flexographie, et ses règles d'usage du papier à en-tête jusqu'à la façade.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Charte graphique, 33 pages</dd></div>
+        <div><dt>Projet</dt><dd>Projet d'équipe, 5 designers</dd></div>
+        <div><dt>Édition</dt><dd>Février 2026</dd></div>
+        <div><dt>Outil</dt><dd>Adobe Illustrator</dd></div>
+      </dl>
+      <div class="team"><span>Issrar Karoui</span><span>Yasmine Boumaiza</span><span>Yasmine Dhaouadi</span><span>Mohamed Slama</span><span>Safe Krouf</span></div>
+      <div class="plate plate-wide" style="margin-bottom:clamp(48px,6vw,80px)"><img src="fx-32.jpg" alt="Logo Flexoprint en relief sur une façade"></div>
+    </div>
+  </header>
+
+  <!-- 01 La marque -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / La marque</span><h2>Imprimer, <em>en continu</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Créée en 1994, filiale de Rose Blanche Group, Flexoprint imprime des emballages souples pour l'agroalimentaire, la cosmétique ou les détergents. Elle a été la première en Tunisie à utiliser la flexographie à tambour central. La nouvelle identité devait exprimer cette expertise technique avec une image moderne et professionnelle.</p>
+        <div class="pillars"><span>Représenter l'identité Flexoprint</span><span>Illustrer le procédé flexographique</span><span>Exprimer la rotation et la continuité</span><span>Valoriser la précision</span></div>
+      </div></div>
+      <div class="plate plate-wide"><img src="fx-7.jpg" alt="Axe du concept : lettre F, plus lettre P, plus symbole de la bobine, égale le logo"></div>
+      <p class="cap">F + P + la bobine d'impression : un signe arrondi qui évoque la rotation et la continuité du processus.</p>
+    </div>
+  </section>
+
+  <!-- 02 Système -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Le système</span><h2>Construit <em>au millimètre</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Une construction géométrique sur une unité de référence, deux couleurs fortes vérifiées pour les trois formes de daltonisme, et une famille typographique pour le logo, le texte et la signature mail.</p>
+      </div></div>
+      <div class="swatches" style="grid-template-columns:1fr 1fr">
+        <div class="sw" style="background:#2A307D;border:1px solid var(--cline)"><b>Bleu Reflex</b><p>Fiabilité, stabilité, savoir-faire.</p>
+          <dl><dt>Pantone</dt><dd>Reflex Blue C</dd><dt>CMJN</dt><dd>66 · 62 · 0 · 51</dd><dt>RVB</dt><dd>42 · 48 · 125</dd><dt>Web</dt><dd>#2A307D</dd></dl></div>
+        <div class="sw" style="background:#F4C400;color:#141850"><b>Jaune</b><p style="color:#141850;opacity:.8">Énergie, visibilité, impact.</p>
+          <dl><dt>Pantone</dt><dd>116 C</dd><dt>CMJN</dt><dd>0 · 20 · 100 · 4</dd><dt>RVB</dt><dd>244 · 196 · 0</dd><dt>Web</dt><dd>#F4C400</dd></dl></div>
+      </div>
+      <div class="plates">
+        <div class="plate"><img src="fx-13.jpg" alt="Construction géométrique du logo sur grille"></div>
+        <div class="plate"><img src="fx-21.jpg" alt="Typographies : Alexandria, Futura LT et Berlin Sans FB"></div>
+        <div class="plate"><img src="fx-20.jpg" alt="Logo vu en deutéranopie, protanopie et tritanopie"></div>
+        <div class="plate"><img src="fx-14.jpg" alt="Les 12 interdits d'utilisation du logo"></div>
+      </div>
+      <p class="cap">Construction géométrique, typographies, test daltonisme et usages interdits.</p>
+    </div>
+  </section>
+
+  <!-- 03 Règles -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Règles d'usage</span><h2>Lisible <em>partout</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Tailles minimales pour l'impression, le web et la broderie sur les tenues, versions positive et négative selon le fond, et règles pour les images et la vidéo : le logo reste lisible quel que soit le support.</p>
+      </div></div>
+      <div class="plates">
+        <div class="plate"><img src="fx-11.jpg" alt="Tailles de marquage du logo en broderie et impression sur polos"></div>
+        <div class="plate"><img src="fx-16.jpg" alt="Application du logo sur images de fond sombres, claires et complexes"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 Supports -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">04 / Supports</span><h2>Du bureau <em>aux écrans</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Papeterie et signalétique avec leurs spécifications techniques (papier, grammage, format, fonds perdus), puis les supports numériques : site web et habillage des réseaux sociaux.</p>
+      </div></div>
+      <div class="plate plate-wide"><img src="fx-31.jpg" alt="Mockup de la papeterie Flexoprint"></div>
+      <div class="plates">
+        <div class="plate"><img src="fx-22.jpg" alt="Carte de visite avec spécifications techniques"></div>
+        <div class="plate"><img src="fx-25.jpg" alt="Roll-up avec spécifications"></div>
+        <div class="plate"><img src="fx-27.jpg" alt="Maquette du site web"></div>
+        <div class="plate"><img src="fx-28.jpg" alt="Habillage de la chaîne YouTube"></div>
+      </div>
+      <div class="plate" style="margin-top:16px"><img src="fx-30.jpg" alt="Habillage de la page Facebook"></div>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#aroui">Projet suivant : Au temps d'El Aroui <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ===================== ÉTUDE DE CAS : INSTITUT IXIA ===================== -->
+<article class="cs ixia" id="cs-ixia" hidden aria-labelledby="ixia-title">
+  <div class="cs-bar">
+    <div class="wrap">
+      <a class="logo" href="#projets"><b><img src="avatar.jpg" alt=""></b>Issrar Karoui</a>
+      <a href="#projets">← Retour aux projets</a>
+    </div>
+  </div>
+
+  <header class="cs-hero">
+    <div class="wrap">
+      <span class="cs-kicker">Identité visuelle · Brand Book</span>
+      <h1 class="cs-title" id="ixia-title">Institut <em>IXIA</em></h1>
+      <p class="cs-lead">L'identité complète d'un institut de formation professionnelle : logo, système graphique et déclinaisons print et digitales.</p>
+      <dl class="cs-facts">
+        <div><dt>Type</dt><dd>Charte graphique, brand book de 20 pages</dd></div>
+        <div><dt>Projet</dt><dd>Projet d'équipe, 3 designers</dd></div>
+        <div><dt>Année</dt><dd>2026</dd></div>
+        <div><dt>Outil</dt><dd>Adobe Illustrator</dd></div>
+      </dl>
+      <div class="team"><span>Mouhamed Slama</span><span>Chaima Ben Rejeb</span><span>Issrar Karoui</span></div>
+      <div class="plate plate-wide" style="margin-bottom:clamp(48px,6vw,80px)"><img src="ixia-1.jpg" alt="Couverture du brand book Institut IXIA"></div>
+    </div>
+  </header>
+
+  <!-- 01 Concept -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">01 / Le concept</span><h2>Un signe qui <em>monte</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Le logotype réunit trois idées : <strong>la flèche</strong> pour la progression, <strong>les marches</strong> pour un parcours qui évolue, et <strong>le symbole de validation</strong> pour la maîtrise et la réussite. Le résultat est un signe ascendant, lisible et institutionnel, qui porte la promesse de l'institut : « Professions et compétences ».</p>
+      </div></div>
+      <div class="plate plate-wide"><img src="ixia-3.jpg" alt="Axe de concept : de l'inspiration au croquis puis à l'icône finale"></div>
+      <p class="cap">De l'inspiration au croquis, puis à l'icône finale.</p>
+      <div class="plates">
+        <div class="plate"><img src="ixia-2.jpg" alt="Logo primaire Institut IXIA"></div>
+        <div class="plate"><img src="ixia-4.jpg" alt="Construction du logo horizontal et vertical sur grille"></div>
+      </div>
+      <p class="cap">Logo primaire et construction sur grille, en version horizontale et verticale.</p>
+    </div>
+  </section>
+
+  <!-- 02 Système -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">02 / Le système</span><h2>Couleurs, typographie <em>et règles</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Une palette de trois violets, du plus lumineux au plus profond, et une typographie aux formes arrondies (Aristotelica Display) pour une image moderne, innovante et professionnelle.</p>
+      </div></div>
+      <div class="swatches">
+        <div class="sw" style="background:#5118C9"><b>Royal Pulse</b><p>Intense et vibrant. Pour les call-to-action et les zones à fort impact.</p><span>#5118C9</span></div>
+        <div class="sw" style="background:#7655D0"><b>Violet Aura</b><p>Couleur principale, créative et premium.</p><span>#7655D0</span></div>
+        <div class="sw" style="background:#20104E;border:1px solid var(--cline)"><b>Midnight Plum</b><p>Pour les fonds, le texte et les contrastes.</p><span>#20104E</span></div>
+      </div>
+      <div class="plates">
+        <div class="plate"><img src="ixia-9.jpg" alt="Typographie Aristotelica Display en graisses Bold, Regular et Light"></div>
+        <div class="plate"><img src="ixia-5.jpg" alt="Variations du logo sur fonds clairs et violets"></div>
+      </div>
+      <div class="plate" style="margin-top:16px"><img src="ixia-8.jpg" alt="Règles d'application du logo sur différents fonds, autorisées et interdites"></div>
+      <p class="cap">Typographie, variations du logo et règles d'application sur fond.</p>
+    </div>
+  </section>
+
+  <!-- 03 Print -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">03 / Supports imprimés</span><h2>L'identité <em>en main</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Papeterie, badge, certificat, carnet de notes et roll-up : chaque support applique le logo, la palette et la typographie pour une communication cohérente et une image institutionnelle forte.</p>
+      </div></div>
+      <div class="plate plate-wide"><img src="ixia-11.jpg" alt="Mockup de la papeterie : papier en-tête, cartes de visite, enveloppe, gobelet et badges"></div>
+      <div class="plates">
+        <div class="plate"><img src="ixia-13.jpg" alt="Badge d'identification"></div>
+        <div class="plate"><img src="ixia-14.jpg" alt="Certificat d'excellence"></div>
+        <div class="plate"><img src="ixia-15.jpg" alt="Carnet de notes"></div>
+        <div class="plate"><img src="ixia-16.jpg" alt="Roll-up « Maîtrisez votre avenir »"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 Digital -->
+  <section class="cs-sec">
+    <div class="wrap">
+      <div class="cs-head"><span class="num">04 / Supports digitaux</span><h2>Du site web <em>aux réseaux</em></h2></div>
+      <div class="cs-body"><div class="col">
+        <p>Un site vitrine pour attirer étudiants, partenaires et clients. Une application intranet pour suivre les cours, la progression et les tableaux de bord, et échanger avec l'administration. Des publications sociales pour la visibilité et l'engagement.</p>
+      </div></div>
+      <div class="plate plate-wide"><img src="ixia-17.jpg" alt="Maquettes du site web de l'Institut IXIA"></div>
+      <div class="plates">
+        <div class="plate"><img src="ixia-18.jpg" alt="Maquettes de l'application mobile intranet"></div>
+        <div class="plate"><img src="ixia-19.jpg" alt="Publications pour les réseaux sociaux"></div>
+      </div>
+      <div class="cs-next" style="margin-top:32px">
+        <a class="btn" href="#flexoprint">Projet suivant : Flexoprint <span class="arr">→</span></a>
+        <a class="btn ghost" href="#projets">← Tous les projets</a>
+      </div>
+    </div>
+  </section>
+</article>
+
+<dialog id="dlg" aria-labelledby="dlg-title">
+  <div class="dlg">
+    <button class="btn ghost close" type="button" id="dlg-close">Fermer ✕</button>
+    <span class="eyebrow" id="dlg-cat" style="grid-column:auto"></span>
+    <h3 id="dlg-title"></h3>
+    <p id="dlg-desc"></p>
+    <dl>
+      <div><dt>Rôle</dt><dd id="dlg-role"></dd></div>
+      <div><dt>Outils</dt><dd id="dlg-tools"></dd></div>
+      <div><dt>Année</dt><dd id="dlg-year"></dd></div>
+    </dl>
+    <p id="dlg-next" style="font-size:14px"></p>
+  </div>
+</dialog>
+
+<script src="i18n-en.js"></script>
+<script src="i18n-en.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
